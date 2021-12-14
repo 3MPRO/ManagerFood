@@ -51,6 +51,7 @@
     <Compile Include="Model\DoiMatKhau.cs" />
     <Compile Include="Model\FileXML.cs" />
     <Compile Include="Model\Hang.cs" />
+    <Compile Include="Model\Import.cs" />
     <Compile Include="Model\nhanVien.cs" />
     <Compile Include="Model\Supplier.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -77,6 +78,12 @@
     </Compile>
     <Compile Include="View\FormHang.Designer.cs">
       <DependentUpon>FormHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormImport.Designer.cs">
+      <DependentUpon>FormImport.cs</DependentUpon>
     </Compile>
     <Compile Include="View\FormMain.cs">
       <SubType>Form</SubType>
@@ -109,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormHang.resx">
       <DependentUpon>FormHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormImport.resx">
+      <DependentUpon>FormImport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>

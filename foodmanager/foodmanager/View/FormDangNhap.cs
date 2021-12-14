@@ -34,7 +34,7 @@ namespace foodmanager
 
                 if (dn.kiemtraTTDN("User.xml", txtTaiKhoan.Text, txtMatKhau.Text) == true)
                 {
-                    MessageBox.Show("Đăng nhập thành công");
+                  //  MessageBox.Show("Đăng nhập thành công");
                     dn.layMaQuyen();
                     FormMain.tenDNMain = txtTaiKhoan.Text;
                     FormMain frm = new FormMain();
@@ -60,6 +60,12 @@ namespace foodmanager
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void FormDangNhap_Load(object sender, EventArgs e)
+        {
+            txtTaiKhoan.Text = "admin";
+            txtMatKhau.Text = "admin";
         }
     }
 }

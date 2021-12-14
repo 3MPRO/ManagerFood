@@ -125,5 +125,10 @@ namespace foodmanager.View
             txtSoLuong.Text = dgvHang.Rows[d].Cells[4].Value.ToString();
             cbbMaNCC.SelectedValue = dgvHang.Rows[d].Cells[5].Value.ToString();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
