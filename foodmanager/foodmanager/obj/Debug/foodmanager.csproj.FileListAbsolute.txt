@@ -13,3 +13,20 @@ D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.Gene
 D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CoreCompileInputs.cache
 D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.exe
 D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.pdb
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe.config
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.pdb
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.AssemblyReference.cache
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.SuggestedBindingRedirects.cache
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.FormDangNhap.resources
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.Properties.Resources.resources
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormDoiMatKhau.resources
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormHang.resources
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormImport.resources
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormMain.resources
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormSupplier.resources
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.NhanVien.resources
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.GenerateResource.cache
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CoreCompileInputs.cache
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.exe
+D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.pdb

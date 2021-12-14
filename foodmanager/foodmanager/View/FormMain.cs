@@ -158,7 +158,7 @@ namespace foodmanager.View
         {
             FormSupplier formSupplier = new FormSupplier();
             formSupplier.Show();
-            this.Hide();
+           
         }
 
         private void btnHang_Click(object sender, EventArgs e)
@@ -170,6 +170,12 @@ namespace foodmanager.View
         private void Button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormImport formImport = new FormImport();
+                formImport.ShowDialog();
         }
     }
 }

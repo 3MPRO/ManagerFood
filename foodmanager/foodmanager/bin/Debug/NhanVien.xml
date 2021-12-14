@@ -60,4 +60,20 @@
     <SDT>905123567</SDT>
     <Email>le@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
+  <NhanVien>
+    <MaNhanVien>NV001     </MaNhanVien>
+    <TenNhanVien>Đỗ Thị Hương</TenNhanVien>
+    <DiaChi>Thanh Hoá</DiaChi>
+    <SDT>1639787456</SDT>
+    <Email>HuongDo@gmail.com</Email>
+    <NgaySinh>Monday, August 10, 1992</NgaySinh>
+  </NhanVien>
+  <NhanVien>
+    <MaNhanVien>NV001</MaNhanVien>
+    <TenNhanVien>Đỗ Thị Hương</TenNhanVien>
+    <DiaChi>Thanh Hoá</DiaChi>
+    <SDT>1639787456</SDT>
+    <Email>HuongDo@gmail.com</Email>
+    <NgaySinh>Monday, August 10, 1992</NgaySinh>
+  </NhanVien>
 </NewDataSet>
