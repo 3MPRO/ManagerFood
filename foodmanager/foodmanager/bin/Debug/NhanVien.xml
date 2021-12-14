@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="_x0027_NhanVien_x0027_" msdata:UseCurrentLocale="true">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="NhanVien" msdata:UseCurrentLocale="true">
       <xs:complexType>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:element name="_x0027_NhanVien_x0027_">
+          <xs:element name="NhanVien">
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="MaNhanVien" type="xs:string" minOccurs="0" />
@@ -20,44 +20,36 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
-  <_x0027_NhanVien_x0027_>
-    <MaNhanVien>NV001     </MaNhanVien>
-    <TenNhanVien>Đỗ Thị Hương</TenNhanVien>
-    <NgaySinh>1992-08-10 12:00:00 AM</NgaySinh>
-    <DiaChi>Thanh Hoá</DiaChi>
-    <SDT>1639787456</SDT>
-    <Email>HuongDo@gmail.com</Email>
-  </_x0027_NhanVien_x0027_>
-  <_x0027_NhanVien_x0027_>
+  <NhanVien>
     <MaNhanVien>NV002     </MaNhanVien>
     <TenNhanVien>Đỗ Thị Hà</TenNhanVien>
     <NgaySinh>1986-06-01 12:00:00 AM</NgaySinh>
     <DiaChi>Thanh Hoá</DiaChi>
     <SDT>987020353</SDT>
     <Email>HKTM@gmail.com</Email>
-  </_x0027_NhanVien_x0027_>
-  <_x0027_NhanVien_x0027_>
+  </NhanVien>
+  <NhanVien>
     <MaNhanVien>NV003     </MaNhanVien>
     <TenNhanVien>Nguyễn Vân Anh</TenNhanVien>
     <NgaySinh>1991-08-10 12:00:00 AM</NgaySinh>
     <DiaChi>Hưng Yên</DiaChi>
     <SDT>1639787247</SDT>
     <Email>Vananh@gmail.com</Email>
-  </_x0027_NhanVien_x0027_>
-  <_x0027_NhanVien_x0027_>
+  </NhanVien>
+  <NhanVien>
     <MaNhanVien>NV004     </MaNhanVien>
     <TenNhanVien>Phùng Văn Phong</TenNhanVien>
     <NgaySinh>1991-08-10 12:00:00 AM</NgaySinh>
     <DiaChi>Hà nội</DiaChi>
     <SDT>1639787291</SDT>
     <Email>PhungPhong@gmail.com</Email>
-  </_x0027_NhanVien_x0027_>
-  <_x0027_NhanVien_x0027_>
+  </NhanVien>
+  <NhanVien>
     <MaNhanVien>NV005     </MaNhanVien>
     <TenNhanVien>Lê The</TenNhanVien>
     <NgaySinh>7/3/2020 12:00:00 AM</NgaySinh>
     <DiaChi>05 Núi Thành</DiaChi>
     <SDT>905123567</SDT>
     <Email>le@gmail.com</Email>
-  </_x0027_NhanVien_x0027_>
+  </NhanVien>
 </NewDataSet>

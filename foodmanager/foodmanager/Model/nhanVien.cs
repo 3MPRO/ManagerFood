@@ -11,82 +11,53 @@ namespace foodmanager.Model
     class nhanVien
     {
         FileXML Fxml = new FileXML();
-        public bool checkMaNV(string MaNhanVien)
+        public bool kiemtra(string MaNhanVien)
         {
             XmlTextReader reader = new XmlTextReader("NhanVien.xml");
             XmlDocument doc = new XmlDocument();
             doc.Load(reader);
             XmlNode node = doc.SelectSingleNode("NewDataSet/NhanVien[MaNhanVien='" + MaNhanVien + "']");
             reader.Close();
-
+            bool kq = true;
             if (node != null)
             {
-                return true;
+                return kq = true;
             }
             else
             {
-                return false;
+                return kq = false;
 
             }
 
         }
-
-        public void addNhanVien(string MaNV, string TenNV, string DiaChi, string SDT, string Email, string NgaySinh)
+        public void themNV(string MaNhanVien, string TenNhanVien, string NgaySinh, string DiaChi, string SDT, string Email)
         {
             string noiDung = "<NhanVien>" +
-                    "<MaNhanVien>" + MaNV + "</MaNhanVien>" +
-                    "<TenNhanVien>" + TenNV + "</TenNhanVien>" +
+                    "<MaNhanVien>" + MaNhanVien + "</MaNhanVien>" +
+                    "<TenNhanVien>" + TenNhanVien + "</TenNhanVien>" +
+                    "<NgaySinh>" + NgaySinh + "</NgaySinh>" +
                     "<DiaChi>" + DiaChi + "</DiaChi>" +
                     "<SDT>" + SDT + "</SDT>" +
                     "<Email>" + Email + "</Email>" +
-                    "<NgaySinh>" + NgaySinh + "</NgaySinh>" +
                     "</NhanVien>";
             Fxml.Them("NhanVien.xml", noiDung);
         }
-        public void suaNhanVien(String MaNhanVien, string TenNV, string DiaChi, string SDT, string Email, string NgaySinh)
+        public void suaNV(string MaNhanVien, string TenNhanVien, string NgaySinh, string DiaChi, string SDT, string Email)
         {
-            string noiDung =
-                    "<MaNhanVien>" + MaNhanVien + "</MaNhanVien>"+
-                    "<TenNhanVien>" + TenNV + "</TenNhanVien>" +
+
+            string noiDung = "<MaNhanVien>" + MaNhanVien + "</MaNhanVien>" +
+                    "<TenNhanVien>" + TenNhanVien + "</TenNhanVien>" +
+                    "<NgaySinh>" + NgaySinh + "</NgaySinh>" +
                     "<DiaChi>" + DiaChi + "</DiaChi>" +
                     "<SDT>" + SDT + "</SDT>" +
-                    "<Email>" + Email + "</Email>" +
-                    "<NgaySinh>" + NgaySinh + "</NgaySinh>";
-            Fxml.Sua("NhaCungCap.xml", "NhanVien", "MaNhanVien", MaNhanVien, noiDung);
-        }
+                    "<Email>" + Email + "</Email>";
 
-        public void xoaNhanVien(string MaNhanVien)
+            Fxml.Sua("NhanVien.xml", "NhanVien", "MaNhanVien", MaNhanVien, noiDung);
+
+        }
+        public void xoaNV(string MaNhanVien)
         {
             Fxml.Xoa("NhanVien.xml", "NhanVien", "MaNhanVien", MaNhanVien);
-        }
-
-        public DataTable LoadNhanVien()
-        {
-            DataTable dt = new DataTable();
-            dt = Fxml.HienThi("NhanVien.xml");
-            return dt;
-        }
-
-        public DataTable LoadTable()
-        {
-            DataTable dt = new DataTable();
-            dt = Fxml.HienThi("NhaCungCap.xml");
-            DataTable dtNCC = new DataTable(); ;
-            dtNCC = LoadNhanVien();
-            int soDong = LoadNhanVien().Rows.Count;
-
-            for (int i = 0; i < dt.Rows.Count; i++)
-            {
-                for (int j = 0; j < soDong; j++)
-                {
-                    if (dt.Rows[i]["MaNhanVien"].ToString().Equals(dtNCC.Rows[j]["MaNhanVien"].ToString()))
-                    {
-                        dt.Rows[i]["MaNhanVien"] = dtNCC.Rows[j]["TenNhanVien"];
-                    }
-                }
-            }
-
-            return dt;
         }
     }
 }

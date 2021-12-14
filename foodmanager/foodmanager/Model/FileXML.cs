@@ -65,6 +65,7 @@ namespace foodmanager.Model
             string fileName = Application.StartupPath + "\\" + duongDan;
             XmlDocument doc = new XmlDocument();
             doc.Load(fileName);
+            MessageBox.Show(giaTriTruong);
             XmlNode nodeCu = doc.SelectSingleNode("NewDataSet/" + tenFileXML + "[" + xoaTheoTruong + "='" + giaTriTruong + "']");
             doc.DocumentElement.RemoveChild(nodeCu);
             doc.Save(fileName);
@@ -72,6 +73,8 @@ namespace foodmanager.Model
 
         public void Sua(string duongDan, string tenFile, string suaTheoTruong, string giaTriTruong, string noiDung)
         {
+            MessageBox.Show("Duong dan", duongDan);
+            MessageBox.Show("Ten file 1", tenFile);
 
             XmlTextReader reader = new XmlTextReader(duongDan);
             XmlDocument doc = new XmlDocument();
