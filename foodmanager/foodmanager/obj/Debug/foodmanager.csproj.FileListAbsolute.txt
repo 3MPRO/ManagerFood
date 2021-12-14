@@ -1,0 +1,15 @@
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\bin\Debug\foodmanager.exe.config
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\bin\Debug\foodmanager.exe
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\bin\Debug\foodmanager.pdb
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.AssemblyReference.cache
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.FormDangNhap.resources
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.Properties.Resources.resources
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormDoiMatKhau.resources
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormHang.resources
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormMain.resources
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormSupplier.resources
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.View.NhanVien.resources
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.GenerateResource.cache
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CoreCompileInputs.cache
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.exe
+D:\XML\ManagerFood_XML\foodmanager\foodmanager\obj\Debug\foodmanager.pdb

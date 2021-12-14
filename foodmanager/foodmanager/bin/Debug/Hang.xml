@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Hang" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Hang">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MaHang" type="xs:string" minOccurs="0" />
+                <xs:element name="TenHang" type="xs:string" minOccurs="0" />
+                <xs:element name="DonViTinh" type="xs:string" minOccurs="0" />
+                <xs:element name="DonGia" type="xs:int" minOccurs="0" />
+                <xs:element name="SoLuong" type="xs:int" minOccurs="0" />
+                <xs:element name="MaNCC" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Hang>
+    <MaHang>TP002</MaHang>
+    <TenHang>Cá Hồi Tươi Nhập Khẩu</TenHang>
+    <DonViTinh>Kg</DonViTinh>
+    <DonGia>2220000</DonGia>
+    <SoLuong>20</SoLuong>
+    <MaNCC>NC001</MaNCC>
+  </Hang>
+  <Hang>
+    <MaHang>TP003</MaHang>
+    <TenHang>Tủ Lạnh Sanyo</TenHang>
+    <DonViTinh>chiếc</DonViTinh>
+    <DonGia>4500000</DonGia>
+    <SoLuong>20</SoLuong>
+    <MaNCC>NC002</MaNCC>
+  </Hang>
+  <Hang>
+    <MaHang>TP004</MaHang>
+    <TenHang>Cà Tím Đà Lạt Loại To</TenHang>
+    <DonViTinh>Kg</DonViTinh>
+    <DonGia>117000</DonGia>
+    <SoLuong>20</SoLuong>
+    <MaNCC>NC004</MaNCC>
+  </Hang>
+</NewDataSet>
