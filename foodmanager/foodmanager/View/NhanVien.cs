@@ -85,6 +85,16 @@ namespace foodmanager.View
             }
         }
 
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnThem_Click(object sender, EventArgs e)
         {
             if (nv.kiemtra(txtMaNV.Text) == true)

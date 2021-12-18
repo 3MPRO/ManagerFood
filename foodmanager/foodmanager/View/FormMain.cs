@@ -15,6 +15,7 @@ namespace foodmanager.View
     {
         FileXML Fxml = new FileXML();
         Main M = new Main();
+        HeThong HT = new HeThong();
         public FormMain()
         {
             InitializeComponent();
@@ -141,6 +142,11 @@ namespace foodmanager.View
         {
             
         }
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            NhanVien nhanVien = new NhanVien();
+            nhanVien.ShowDialog();
+        }
 
         private void quảnLýHàngToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -167,15 +173,79 @@ namespace foodmanager.View
             frm.ShowDialog();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormImport formImport = new FormImport();
+            formImport.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormSupplier formSupplier = new FormSupplier();
+            formSupplier.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FormTaiKhoanNV frm = new FormTaiKhoanNV();
+            frm.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormXacNhanDiLam frm = new FormXacNhanDiLam();
+            frm.ShowDialog();
+        }
+
+        private void chuyểnĐổiToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void từSQLXMLToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormImport formImport = new FormImport();
-                formImport.ShowDialog();
+            try
+            {
+                HT.TaoXML();
+                MessageBox.Show("Tạo XML thành công");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("" + ex);
+            }
+        }
+
+        private void từXMLSQLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                HT.CapNhapSQL();
+                MessageBox.Show("Cập nhập SQL server thành công");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("" + ex);
+            }
+        }
+
+        private void đăngNhâpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblHoTen_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

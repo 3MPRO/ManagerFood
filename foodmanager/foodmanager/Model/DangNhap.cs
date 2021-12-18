@@ -16,7 +16,7 @@ namespace foodmanager.Controller
         public void layMaQuyen()
         {
 
-            XmlTextReader reader = new XmlTextReader("User.xml");
+            XmlTextReader reader = new XmlTextReader("TaiKhoan.xml");
             XmlDocument doc = new XmlDocument();
             doc.Load(reader);
             reader.Close();
@@ -81,12 +81,12 @@ namespace foodmanager.Controller
         public void DoiMatKhau(string nguoiDung, string matKhau)
         {
             XmlDocument doc1 = new XmlDocument();
-            doc1.Load(Application.StartupPath + "\\User.xml");
+            doc1.Load(Application.StartupPath + "\\TaiKhoan.xml");
             XmlNode node1 = doc1.SelectSingleNode("NewDataSet/TaiKhoan[MaNhanVien = '" + nguoiDung + "']");
             if (node1 != null)
             {
                 node1.ChildNodes[1].InnerText = matKhau;
-                doc1.Save(Application.StartupPath + "\\User.xml");
+                doc1.Save(Application.StartupPath + "\\TaiKhoan.xml");
             }
         }
         public bool kiemtraTTDN(string duongdan, string MaNhanVien, string MatKhau)

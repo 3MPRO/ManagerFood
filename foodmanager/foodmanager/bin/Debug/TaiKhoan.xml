@@ -34,7 +34,7 @@
   </TaiKhoan>
   <TaiKhoan>
     <MaNhanVien>NV003</MaNhanVien>
-    <MatKhau>1</MatKhau>
+    <MatKhau>123</MatKhau>
     <Quyen>2</Quyen>
   </TaiKhoan>
 </NewDataSet>

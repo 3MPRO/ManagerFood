@@ -41,7 +41,7 @@ namespace foodmanager.View
             }
             else
             {
-                if (nv.checkMaNV(txtMaNhanVien.Text.ToString().Trim()) == false)
+                if (nv.kiemtra(txtMaNhanVien.Text.ToString().Trim()) == false)
                 {
                     MessageBox.Show("Ko có mã nhân viên này, kiểm tra lại");
                 }

@@ -46,11 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\DangNhap.cs" />
-    <Compile Include="Controller\Main.cs" />
+    <Compile Include="Model\DangNhap.cs" />
+    <Compile Include="Model\Main.cs" />
     <Compile Include="Model\DoiMatKhau.cs" />
     <Compile Include="Model\FileXML.cs" />
     <Compile Include="Model\Hang.cs" />
+    <Compile Include="Model\HeThong.cs" />
     <Compile Include="Model\Import.cs" />
     <Compile Include="Model\nhanVien.cs" />
     <Compile Include="Model\Supplier.cs" />
@@ -97,6 +98,18 @@
     <Compile Include="View\FormSupplier.Designer.cs">
       <DependentUpon>FormSupplier.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\FormTaiKhoanNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormTaiKhoanNV.Designer.cs">
+      <DependentUpon>FormTaiKhoanNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormXacNhanDiLam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormXacNhanDiLam.Designer.cs">
+      <DependentUpon>FormXacNhanDiLam.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\NhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +139,12 @@
     <EmbeddedResource Include="View\FormSupplier.resx">
       <DependentUpon>FormSupplier.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\FormTaiKhoanNV.resx">
+      <DependentUpon>FormTaiKhoanNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormXacNhanDiLam.resx">
+      <DependentUpon>FormXacNhanDiLam.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\NhanVien.resx">
       <DependentUpon>NhanVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +163,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resource\iconfinder_Undo_278852.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\loading.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

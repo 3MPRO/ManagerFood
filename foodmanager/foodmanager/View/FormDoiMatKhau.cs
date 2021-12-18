@@ -39,12 +39,12 @@ namespace foodmanager.View
         public void DoiMatKhau(string nguoiDung, string matKhau)
         {
             XmlDocument doc1 = new XmlDocument();
-            doc1.Load(Application.StartupPath + "\\User.xml");
+            doc1.Load(Application.StartupPath + "\\TaiKhoan.xml");
             XmlNode node1 = doc1.SelectSingleNode("NewDataSet/TaiKhoan[MaNhanVien = '" + nguoiDung + "']");
             if (node1 != null)
             {
                 node1.ChildNodes[1].InnerText = matKhau;
-                doc1.Save(Application.StartupPath + "\\User.xml");
+                doc1.Save(Application.StartupPath + "\\TaiKhoan.xml");
             }
         }
 
