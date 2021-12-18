@@ -24,7 +24,7 @@ namespace foodmanager.View
         public void hienthiTTTK()
         {
             DataTable dt = new DataTable();
-            dt = Fxml.HienThi("User.xml");
+            dt = Fxml.HienThi("TaiKhoan.xml");
             dgvTaiKhoanNhanVien.DataSource = dt;
         }
 

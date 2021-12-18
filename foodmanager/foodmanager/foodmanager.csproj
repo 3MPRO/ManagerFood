@@ -46,8 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\DangNhap.cs" />
-    <Compile Include="Controller\Main.cs" />
+    <Compile Include="Model\DangNhap.cs" />
+    <Compile Include="Model\Main.cs" />
     <Compile Include="Model\DoiMatKhau.cs" />
     <Compile Include="Model\FileXML.cs" />
     <Compile Include="Model\Hang.cs" />

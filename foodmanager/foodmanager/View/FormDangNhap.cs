@@ -32,7 +32,7 @@ namespace foodmanager
             else
             {
 
-                if (dn.kiemtraTTDN("User.xml", txtTaiKhoan.Text, txtMatKhau.Text) == true)
+                if (dn.kiemtraTTDN("TaiKhoan.xml", txtTaiKhoan.Text, txtMatKhau.Text) == true)
                 {
                   //  MessageBox.Show("Đăng nhập thành công");
                     dn.layMaQuyen();
