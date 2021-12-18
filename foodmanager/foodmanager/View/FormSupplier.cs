@@ -124,6 +124,11 @@ namespace foodmanager.View
                 showSupplier();
             }
         }
+
+        private void btnReview_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

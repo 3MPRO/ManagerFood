@@ -53,72 +53,84 @@ namespace foodmanager.View
             // 
             // tbnThoat
             // 
+            this.tbnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tbnThoat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbnThoat.ForeColor = System.Drawing.Color.White;
             this.tbnThoat.Location = new System.Drawing.Point(474, 212);
             this.tbnThoat.Margin = new System.Windows.Forms.Padding(4);
             this.tbnThoat.Name = "tbnThoat";
             this.tbnThoat.Size = new System.Drawing.Size(132, 62);
             this.tbnThoat.TabIndex = 15;
             this.tbnThoat.Text = "Thoát";
-            this.tbnThoat.UseVisualStyleBackColor = true;
+            this.tbnThoat.UseVisualStyleBackColor = false;
             this.tbnThoat.Click += new System.EventHandler(this.tbnThoat_Click);
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(569, 122);
+            this.txtMatKhau.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMatKhau.Location = new System.Drawing.Point(543, 122);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(220, 22);
+            this.txtMatKhau.Size = new System.Drawing.Size(220, 30);
             this.txtMatKhau.TabIndex = 14;
             this.txtMatKhau.UseSystemPasswordChar = true;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(437, 126);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 17);
+            this.label3.Size = new System.Drawing.Size(82, 22);
             this.label3.TabIndex = 13;
             this.label3.Text = "Mật khẩu";
             // 
             // txtMaNhanVien
             // 
-            this.txtMaNhanVien.Location = new System.Drawing.Point(130, 123);
+            this.txtMaNhanVien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaNhanVien.Location = new System.Drawing.Point(158, 122);
             this.txtMaNhanVien.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(220, 22);
+            this.txtMaNhanVien.Size = new System.Drawing.Size(220, 30);
             this.txtMaNhanVien.TabIndex = 12;
             // 
             // btnXacNhan
             // 
-            this.btnXacNhan.Location = new System.Drawing.Point(181, 212);
+            this.btnXacNhan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnXacNhan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXacNhan.ForeColor = System.Drawing.Color.White;
+            this.btnXacNhan.Location = new System.Drawing.Point(222, 212);
             this.btnXacNhan.Margin = new System.Windows.Forms.Padding(4);
             this.btnXacNhan.Name = "btnXacNhan";
             this.btnXacNhan.Size = new System.Drawing.Size(132, 62);
             this.btnXacNhan.TabIndex = 11;
             this.btnXacNhan.Text = "Xác Nhận";
-            this.btnXacNhan.UseVisualStyleBackColor = true;
+            this.btnXacNhan.UseVisualStyleBackColor = false;
             this.btnXacNhan.Click += new System.EventHandler(this.btnXacNhan_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(9, 127);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 17);
+            this.label2.Size = new System.Drawing.Size(121, 22);
             this.label2.TabIndex = 10;
             this.label2.Text = " Mã nhân viên";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(240, 26);
+            this.label1.Font = new System.Drawing.Font("Segoe Script", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(214, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(336, 31);
+            this.label1.Size = new System.Drawing.Size(433, 46);
             this.label1.TabIndex = 9;
             this.label1.Text = "Xác Nhận Đi làm Hôm Nay";
             // 
@@ -126,6 +138,7 @@ namespace foodmanager.View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 332);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.tbnThoat);

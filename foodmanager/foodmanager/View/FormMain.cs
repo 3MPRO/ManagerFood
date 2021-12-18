@@ -227,5 +227,25 @@ namespace foodmanager.View
                 MessageBox.Show("" + ex);
             }
         }
+
+        private void đăngNhâpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblHoTen_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

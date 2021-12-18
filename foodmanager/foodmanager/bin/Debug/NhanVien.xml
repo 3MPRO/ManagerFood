@@ -20,6 +20,22 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
+	<NhanVien>
+		<MaNhanVien>admin</MaNhanVien>
+		<TenNhanVien>Admin</TenNhanVien>
+		<NgaySinh>1992-08-10 12:00:00 AM</NgaySinh>
+		<DiaChi>Thanh Hoá</DiaChi>
+		<SDT>1639787456</SDT>
+		<Email>HuongDo@gmail.com</Email>
+	</NhanVien>
+	<NhanVien>
+		<MaNhanVien>NV001     </MaNhanVien>
+		<TenNhanVien>Đỗ Thị Hương</TenNhanVien>
+		<NgaySinh>1992-08-10 12:00:00 AM</NgaySinh>
+		<DiaChi>Thanh Hoá</DiaChi>
+		<SDT>1639787456</SDT>
+		<Email>HuongDo@gmail.com</Email>
+	</NhanVien>
   <NhanVien>
     <MaNhanVien>NV002     </MaNhanVien>
     <TenNhanVien>Đỗ Thị Hà</TenNhanVien>

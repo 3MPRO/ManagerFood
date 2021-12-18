@@ -164,5 +164,26 @@
   <ItemGroup>
     <None Include="Resource\iconfinder_Undo_278852.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\loading.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
