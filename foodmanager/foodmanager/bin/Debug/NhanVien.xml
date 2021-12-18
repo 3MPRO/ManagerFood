@@ -23,41 +23,33 @@
 	<NhanVien>
 		<MaNhanVien>admin</MaNhanVien>
 		<TenNhanVien>Admin</TenNhanVien>
-		<NgaySinh>1992-08-10 12:00:00 AM</NgaySinh>
-		<DiaChi>Thanh Hoá</DiaChi>
-		<SDT>1639787456</SDT>
-		<Email>HuongDo@gmail.com</Email>
+		<NgaySinh>2001-03-05 12:00:00 AM</NgaySinh>
+		<DiaChi>Đà Nẵng</DiaChi>
+		<SDT>0961640909</SDT>
+		<Email>admin@gmail.com</Email>
 	</NhanVien>
 	<NhanVien>
-		<MaNhanVien>NV001     </MaNhanVien>
-		<TenNhanVien>Đỗ Thị Hương</TenNhanVien>
-		<NgaySinh>1992-08-10 12:00:00 AM</NgaySinh>
-		<DiaChi>Thanh Hoá</DiaChi>
-		<SDT>1639787456</SDT>
-		<Email>HuongDo@gmail.com</Email>
+		<MaNhanVien>NV001</MaNhanVien>
+		<TenNhanVien>Nguyễn Quang Huy</TenNhanVien>
+		<NgaySinh>1999-12-12 12:00:00 AM</NgaySinh>
+		<DiaChi>Kon Tum</DiaChi>
+		<SDT>0961640909</SDT>
+		<Email>nqhuy@gmail.com</Email>
 	</NhanVien>
   <NhanVien>
-    <MaNhanVien>NV002     </MaNhanVien>
-    <TenNhanVien>Đỗ Thị Hà</TenNhanVien>
-    <NgaySinh>1986-06-01 12:00:00 AM</NgaySinh>
-    <DiaChi>Thanh Hoá</DiaChi>
-    <SDT>987020353</SDT>
-    <Email>HKTM@gmail.com</Email>
+    <MaNhanVien>NV002</MaNhanVien>
+    <TenNhanVien>Phạm Văn Thiên</TenNhanVien>
+    <NgaySinh>2001-04-01 12:00:00 AM</NgaySinh>
+    <DiaChi>Quãng Nam</DiaChi>
+    <SDT>0975214525</SDT>
+    <Email>pvthien@gmail.com</Email>
   </NhanVien>
   <NhanVien>
-    <MaNhanVien>NV003     </MaNhanVien>
-    <TenNhanVien>Nguyễn Vân Anh</TenNhanVien>
-    <NgaySinh>1991-08-10 12:00:00 AM</NgaySinh>
-    <DiaChi>Hưng Yên</DiaChi>
-    <SDT>1639787247</SDT>
-    <Email>Vananh@gmail.com</Email>
-  </NhanVien>
-  <NhanVien>
-    <MaNhanVien>NV004     </MaNhanVien>
-    <TenNhanVien>Phùng Văn Phong</TenNhanVien>
-    <NgaySinh>1991-08-10 12:00:00 AM</NgaySinh>
-    <DiaChi>Hà nội</DiaChi>
-    <SDT>1639787291</SDT>
-    <Email>PhungPhong@gmail.com</Email>
+    <MaNhanVien>NV003</MaNhanVien>
+    <TenNhanVien>Bùi Văn Sỷ</TenNhanVien>
+    <NgaySinh>2001-07-05 12:00:00 AM</NgaySinh>
+    <DiaChi>Quãng Bình</DiaChi>
+    <SDT>096421425</SDT>
+    <Email>bvsy@gmail.com</Email>
   </NhanVien>
 </NewDataSet>

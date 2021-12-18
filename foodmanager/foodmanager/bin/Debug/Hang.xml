@@ -21,7 +21,7 @@
     </xs:element>
   </xs:schema>
   <Hang>
-    <MaHang>TP002</MaHang>
+    <MaHang>TP001</MaHang>
     <TenHang>Cá Hồi Tươi Nhập Khẩu</TenHang>
     <DonViTinh>Kg</DonViTinh>
     <DonGia>2220000</DonGia>
@@ -29,19 +29,35 @@
     <MaNCC>NC001</MaNCC>
   </Hang>
   <Hang>
-    <MaHang>TP003</MaHang>
-    <TenHang>Tủ Lạnh Sanyo</TenHang>
-    <DonViTinh>chiếc</DonViTinh>
-    <DonGia>4500000</DonGia>
+    <MaHang>TP002</MaHang>
+    <TenHang>Cá hộp 3 cô gái</TenHang>
+    <DonViTinh>hộp</DonViTinh>
+    <DonGia>17000</DonGia>
     <SoLuong>20</SoLuong>
     <MaNCC>NC002</MaNCC>
   </Hang>
   <Hang>
-    <MaHang>TP004</MaHang>
+    <MaHang>TP003</MaHang>
     <TenHang>Cà Tím Đà Lạt Loại To</TenHang>
     <DonViTinh>Kg</DonViTinh>
     <DonGia>117000</DonGia>
     <SoLuong>20</SoLuong>
     <MaNCC>NC004</MaNCC>
   </Hang>
+    <Hang>
+	    <MaHang>TP004</MaHang>
+	    <TenHang>Ba Chỉ Bò NK Úc</TenHang>
+	    <DonViTinh>Kg</DonViTinh>
+	    <DonGia>190000</DonGia>
+	    <SoLuong>5</SoLuong>
+	    <MaNCC>NC003</MaNCC>
+    </Hang>
+	<Hang>
+		<MaHang>TP005</MaHang>
+		<TenHang>Cà Rốt Đà Lạt GAP</TenHang>
+		<DonViTinh>Kg</DonViTinh>
+		<DonGia>39000</DonGia>
+		<SoLuong>20</SoLuong>
+		<MaNCC>NC003</MaNCC>
+	</Hang>
 </NewDataSet>

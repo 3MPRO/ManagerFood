@@ -21,43 +21,35 @@
     </xs:element>
   </xs:schema>
   <NhaCungCap>
-    <MaNCC>NC002</MaNCC>
-    <TenNCC>Trần anhh</TenNCC>
-    <DiaChi>Láng, Cầu giấy, HN</DiaChi>
-    <SDT>98524284</SDT>
-    <Email>trananh@gmail.com</Email>
+    <MaNCC>NC001</MaNCC>
+    <TenNCC>Nguyễn Thành Nhân</TenNCC>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0945784125</SDT>
+    <Email>ntnhan@gmail.com</Email>
     <MoTa>Rau củ xấy khô</MoTa>
   </NhaCungCap>
   <NhaCungCap>
-    <MaNCC>NC003</MaNCC>
-    <TenNCC>Pico</TenNCC>
-    <DiaChi>Cầu giấy, HN</DiaChi>
-    <SDT>987654678</SDT>
-    <Email>pico@gmail.com</Email>
+    <MaNCC>NC002</MaNCC>
+    <TenNCC>Trần Y Tiến</TenNCC>
+    <DiaChi>Quãng Trị</DiaChi>
+    <SDT>0985471254</SDT>
+    <Email>tytien@gmail.com</Email>
     <MoTa>Thịt heo</MoTa>
   </NhaCungCap>
   <NhaCungCap>
-    <MaNCC>NC004</MaNCC>
-    <TenNCC>HC</TenNCC>
-    <DiaChi>Gải phóng, HN</DiaChi>
-    <SDT>982347891</SDT>
-    <Email>HC@gmail.com</Email>
+    <MaNCC>NC003</MaNCC>
+    <TenNCC>Nguyễn Minh Tuấn</TenNCC>
+    <DiaChi>Quãng Bình</DiaChi>
+    <SDT>0985214526</SDT>
+    <Email>nmtuan@gmail.com</Email>
     <MoTa>Lò bánh mỳ</MoTa>
   </NhaCungCap>
   <NhaCungCap>
-    <MaNCC>NC005</MaNCC>
-    <TenNCC>Trần anh</TenNCC>
-    <DiaChi>Láng, Cầu giấy, HN</DiaChi>
-    <SDT>98524284</SDT>
-    <Email>trananh@gmail.com</Email>
+    <MaNCC>NC004</MaNCC>
+    <TenNCC>Nguyễn Hòa</TenNCC>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>0942153652</SDT>
+    <Email>nhoa@gmail.com</Email>
     <MoTa>Hoa quả tươi</MoTa>
-  </NhaCungCap>
-  <NhaCungCap>
-    <MaNCC>NCC05</MaNCC>
-    <TenNCC>Bui Van SY</TenNCC>
-    <DiaChi>Quang Tri</DiaChi>
-    <SDT>0947895039</SDT>
-    <Email>sybuivn14@gmail.com</Email>
-    <MoTa>ád</MoTa>
   </NhaCungCap>
 </NewDataSet>

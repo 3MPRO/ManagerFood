@@ -19,25 +19,4 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
-  <PhieuNhap>
-    <MaPhieu>1</MaPhieu>
-    <MaHang>DT001     </MaHang>
-    <MaNhanVien>NV001     </MaNhanVien>
-    <SoLuongNhap>20</SoLuongNhap>
-    <NgayLapPhieu>2013-09-05 12:00:00 AM</NgayLapPhieu>
-  </PhieuNhap>
-  <PhieuNhap>
-    <MaPhieu>2</MaPhieu>
-    <MaHang>DT002     </MaHang>
-    <MaNhanVien>NV001     </MaNhanVien>
-    <SoLuongNhap>100</SoLuongNhap>
-    <NgayLapPhieu>2013-09-05 12:00:00 AM</NgayLapPhieu>
-  </PhieuNhap>
-  <PhieuNhap>
-    <MaPhieu>3</MaPhieu>
-    <MaHang>DT005     </MaHang>
-    <MaNhanVien>NV002     </MaNhanVien>
-    <SoLuongNhap>30</SoLuongNhap>
-    <NgayLapPhieu>2013-09-05 12:00:00 AM</NgayLapPhieu>
-  </PhieuNhap>
 </NewDataSet>
