@@ -48,3 +48,21 @@ D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanage
 D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.exe
 D:\MY FILE\Documents\Thien Project\cSharp_xml\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.pdb
 >>>>>>> 6f357a888374b396cbf37fe5c293796770dd9fbc
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.AssemblyReference.cache
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.FormDangNhap.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.Properties.Resources.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormDoiMatKhau.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormHang.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormImport.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormMain.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormSupplier.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.NhanVien.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.GenerateResource.cache
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CoreCompileInputs.cache
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.exe
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.pdb
+D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe.config
+D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe
+D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.pdb
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormTaiKhoanNV.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormXacNhanDiLam.resources
