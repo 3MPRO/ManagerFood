@@ -56,9 +56,11 @@ namespace foodmanager.View
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
             this.btnNhanVien = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.Panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -101,7 +103,7 @@ namespace foodmanager.View
             this.đăngNhậpToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.đăngNhậpToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngNhậpToolStripMenuItem.Image")));
             this.đăngNhậpToolStripMenuItem.Name = "đăngNhậpToolStripMenuItem";
-            this.đăngNhậpToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.đăngNhậpToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
             this.đăngNhậpToolStripMenuItem.Text = "Đăng nhập";
             this.đăngNhậpToolStripMenuItem.Click += new System.EventHandler(this.đăngNhậpToolStripMenuItem_Click);
             // 
@@ -111,7 +113,7 @@ namespace foodmanager.View
             this.đổiMậtKhẩuToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.đổiMậtKhẩuToolStripMenuItem.Image = global::foodmanager.Properties.Resources.loading;
             this.đổiMậtKhẩuToolStripMenuItem.Name = "đổiMậtKhẩuToolStripMenuItem";
-            this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
             this.đổiMậtKhẩuToolStripMenuItem.Text = "Đổi mật khẩu";
             this.đổiMậtKhẩuToolStripMenuItem.Click += new System.EventHandler(this.đổiMậtKhẩuToolStripMenuItem_Click);
             // 
@@ -121,7 +123,7 @@ namespace foodmanager.View
             this.đăngXuấtToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.đăngXuấtToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngXuấtToolStripMenuItem.Image")));
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
@@ -142,7 +144,7 @@ namespace foodmanager.View
             this.từSQLXMLToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.từSQLXMLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.từSQLXMLToolStripMenuItem.Name = "từSQLXMLToolStripMenuItem";
-            this.từSQLXMLToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.từSQLXMLToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
             this.từSQLXMLToolStripMenuItem.Text = "Từ SQL - XML";
             this.từSQLXMLToolStripMenuItem.Click += new System.EventHandler(this.từSQLXMLToolStripMenuItem_Click);
             // 
@@ -151,7 +153,7 @@ namespace foodmanager.View
             this.từXMLSQLToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.từXMLSQLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.từXMLSQLToolStripMenuItem.Name = "từXMLSQLToolStripMenuItem";
-            this.từXMLSQLToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.từXMLSQLToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
             this.từXMLSQLToolStripMenuItem.Text = "Từ XML - SQL";
             this.từXMLSQLToolStripMenuItem.Click += new System.EventHandler(this.từXMLSQLToolStripMenuItem_Click);
             // 
@@ -216,6 +218,7 @@ namespace foodmanager.View
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.panel2.Controls.Add(this.label3);
             this.panel2.Location = new System.Drawing.Point(-7, 666);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1009, 50);
@@ -359,6 +362,17 @@ namespace foodmanager.View
             this.btnNhanVien.UseVisualStyleBackColor = false;
             this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe Script", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(302, 3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(442, 28);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Ứng dụng được phát triển bởi nhóm 3MPRO";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -390,6 +404,8 @@ namespace foodmanager.View
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.Panel1.ResumeLayout(false);
             this.Panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -429,5 +445,6 @@ namespace foodmanager.View
         private System.Windows.Forms.ToolStripMenuItem chuyểnĐổiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem từSQLXMLToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem từXMLSQLToolStripMenuItem;
+        internal System.Windows.Forms.Label label3;
     }
 }
