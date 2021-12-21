@@ -14,7 +14,7 @@ namespace foodmanager.Model
             XmlTextReader reader = new XmlTextReader("PhieuNhap.xml");
             XmlDocument doc = new XmlDocument();
             doc.Load(reader);
-            XmlNode node = doc.SelectSingleNode("NewDataSet/PhieuNhap[MaPhieu='" + MaPhieu + "']");
+            XmlNode node = doc.SelectSingleNode("NewDataSet/_x0027_PhieuNhap_x0027_[MaPhieu='" + MaPhieu + "']");
             reader.Close();
             bool kq = true;
             if (node != null)
@@ -30,13 +30,13 @@ namespace foodmanager.Model
         }
         public void themPN(string MaPhieu, string MaHang, string MaNhanVien, string SoLuong, string NgayLap)
         {
-            string noiDung = "<PhieuNhap>" +
+            string noiDung = "<_x0027_PhieuNhap_x0027_>" +
                     "<MaPhieu>" + MaPhieu + "</MaPhieu>" +
                     "<MaHang>" + MaHang + "</MaHang>" +
                     "<MaNhanVien>" + MaNhanVien + "</MaNhanVien>" +
                     "<SoLuongNhap>" + SoLuong + "</SoLuongNhap>" +
                     "<NgayLapPhieu>" + NgayLap + "</NgayLapPhieu>" +
-                    "</PhieuNhap>";
+                    "</_x0027_PhieuNhap_x0027_>";
             Fxml.Them("PhieuNhap.xml", noiDung);
         }
 

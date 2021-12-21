@@ -20,7 +20,7 @@ namespace foodmanager.Controller
             XmlDocument doc = new XmlDocument();
             doc.Load(reader);
             reader.Close();
-            XmlNode nodeMQ = doc.SelectSingleNode("NewDataSet/TaiKhoan/Quyen");
+            XmlNode nodeMQ = doc.SelectSingleNode("NewDataSet/_x0027_TaiKhoan_x0027_/Quyen");
 
 
         }
@@ -29,8 +29,8 @@ namespace foodmanager.Controller
             XmlTextReader reader = new XmlTextReader("TaiKhoan.xml");
             XmlDocument doc = new XmlDocument();
             doc.Load(reader);
-            XmlNode node = doc.SelectSingleNode("NewDataSet/TaiKhoan[MaNhanVien='" + MaNhanVien + "']");
-            node = doc.SelectSingleNode("NewDataSet/TaiKhoan[MatKhau='" + MatKhau + "']");
+            XmlNode node = doc.SelectSingleNode("NewDataSet/_x0027_TaiKhoan_x0027_[MaNhanVien='" + MaNhanVien + "']");
+            node = doc.SelectSingleNode("NewDataSet/_x0027_TaiKhoan_x0027_[MatKhau='" + MatKhau + "']");
             reader.Close();
             bool kq = true;
             if (node != null)
@@ -47,17 +47,17 @@ namespace foodmanager.Controller
         }
         public void dangkiTaiKhoan(string MaNhanVien, string MatKhau, int Quyen)
         {
-            string noiDung = "<TaiKhoan>" +
+            string noiDung = "<_x0027_TaiKhoan_x0027_>" +
                     "<MaNhanVien>" + MaNhanVien + "</MaNhanVien>" +
                     "<MatKhau>" + MatKhau + "</MatKhau>" +
                     "<Quyen>" + Quyen + "</Quyen>" +
-                    "</TaiKhoan>";
+                    "</_x0027_TaiKhoan_x0027_>";
 
             Fxml.Them("TaiKhoan.xml", noiDung);
         }
         public void xoaTK(string MaNhanVien)
         {
-            Fxml.Xoa("TaiKhoan.xml", "TaiKhoan", "MaNhanVien", MaNhanVien);
+            Fxml.Xoa("TaiKhoan.xml", "_x0027_TaiKhoan_x0027_", "MaNhanVien", MaNhanVien);
 
         }
         public bool kiemtraTTTK(string MaNhanVien)
@@ -65,7 +65,7 @@ namespace foodmanager.Controller
             XmlTextReader reader = new XmlTextReader("TaiKhoan.xml");
             XmlDocument doc = new XmlDocument();
             doc.Load(reader);
-            XmlNode node = doc.SelectSingleNode("NewDataSet/TaiKhoan[MaNhanVien='" + MaNhanVien + "']");
+            XmlNode node = doc.SelectSingleNode("NewDataSet/_x0027_TaiKhoan_x0027_[MaNhanVien='" + MaNhanVien + "']");
             reader.Close();
             bool kq = true;
             if (node != null)
@@ -82,7 +82,7 @@ namespace foodmanager.Controller
         {
             XmlDocument doc1 = new XmlDocument();
             doc1.Load(Application.StartupPath + "\\TaiKhoan.xml");
-            XmlNode node1 = doc1.SelectSingleNode("NewDataSet/TaiKhoan[MaNhanVien = '" + nguoiDung + "']");
+            XmlNode node1 = doc1.SelectSingleNode("NewDataSet/_x0027_TaiKhoan_x0027_[MaNhanVien = '" + nguoiDung + "']");
             if (node1 != null)
             {
                 node1.ChildNodes[1].InnerText = matKhau;

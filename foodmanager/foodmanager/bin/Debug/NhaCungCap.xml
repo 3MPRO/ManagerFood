@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="NhaCungCap" msdata:UseCurrentLocale="true">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="_x0027_NhaCungCap_x0027_" msdata:UseCurrentLocale="true">
       <xs:complexType>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:element name="NhaCungCap">
+          <xs:element name="_x0027_NhaCungCap_x0027_">
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="MaNCC" type="xs:string" minOccurs="0" />
@@ -20,36 +20,36 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
-  <NhaCungCap>
-    <MaNCC>NC001</MaNCC>
+  <_x0027_NhaCungCap_x0027_>
+    <MaNCC>NC001     </MaNCC>
     <TenNCC>Nguyễn Thành Nhân</TenNCC>
     <DiaChi>Đà Nẵng</DiaChi>
-    <SDT>0945784125</SDT>
+    <SDT>945784125</SDT>
     <Email>ntnhan@gmail.com</Email>
     <MoTa>Rau củ xấy khô</MoTa>
-  </NhaCungCap>
-  <NhaCungCap>
-    <MaNCC>NC002</MaNCC>
+  </_x0027_NhaCungCap_x0027_>
+  <_x0027_NhaCungCap_x0027_>
+    <MaNCC>NC002     </MaNCC>
     <TenNCC>Trần Y Tiến</TenNCC>
     <DiaChi>Quãng Trị</DiaChi>
-    <SDT>0985471254</SDT>
+    <SDT>985471254</SDT>
     <Email>tytien@gmail.com</Email>
     <MoTa>Thịt heo</MoTa>
-  </NhaCungCap>
-  <NhaCungCap>
-    <MaNCC>NC003</MaNCC>
+  </_x0027_NhaCungCap_x0027_>
+  <_x0027_NhaCungCap_x0027_>
+    <MaNCC>NC003     </MaNCC>
     <TenNCC>Nguyễn Minh Tuấn</TenNCC>
     <DiaChi>Quãng Bình</DiaChi>
-    <SDT>0985214526</SDT>
+    <SDT>985214526</SDT>
     <Email>nmtuan@gmail.com</Email>
     <MoTa>Lò bánh mỳ</MoTa>
-  </NhaCungCap>
-  <NhaCungCap>
-    <MaNCC>NC004</MaNCC>
+  </_x0027_NhaCungCap_x0027_>
+  <_x0027_NhaCungCap_x0027_>
+    <MaNCC>NC004     </MaNCC>
     <TenNCC>Nguyễn Hòa</TenNCC>
     <DiaChi>Đà Nẵng</DiaChi>
-    <SDT>0942153652</SDT>
+    <SDT>942153652</SDT>
     <Email>nhoa@gmail.com</Email>
     <MoTa>Hoa quả tươi</MoTa>
-  </NhaCungCap>
+  </_x0027_NhaCungCap_x0027_>
 </NewDataSet>

@@ -18,7 +18,7 @@ namespace foodmanager.Model
             Fxml.TaoXML("NhanVien");
             Fxml.TaoXML("NhaCungCap");
             Fxml.TaoXML("PhieuNhap");
-            Fxml.TaoXML("User");
+            Fxml.TaoXML("TaiKhoan");
         }
         void CapNhapTungBang(string tenBang)
         {

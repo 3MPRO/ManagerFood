@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Hang" msdata:UseCurrentLocale="true">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="_x0027_Hang_x0027_" msdata:UseCurrentLocale="true">
       <xs:complexType>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:element name="Hang">
+          <xs:element name="_x0027_Hang_x0027_">
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="MaHang" type="xs:string" minOccurs="0" />
@@ -20,44 +20,44 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
-  <Hang>
-    <MaHang>TP001</MaHang>
+  <_x0027_Hang_x0027_>
+    <MaHang>TP001     </MaHang>
     <TenHang>Cá Hồi Tươi Nhập Khẩu</TenHang>
     <DonViTinh>Kg</DonViTinh>
     <DonGia>2220000</DonGia>
     <SoLuong>20</SoLuong>
     <MaNCC>NC001</MaNCC>
-  </Hang>
-  <Hang>
-    <MaHang>TP002</MaHang>
+  </_x0027_Hang_x0027_>
+  <_x0027_Hang_x0027_>
+    <MaHang>TP002     </MaHang>
     <TenHang>Cá hộp 3 cô gái</TenHang>
     <DonViTinh>hộp</DonViTinh>
     <DonGia>17000</DonGia>
     <SoLuong>20</SoLuong>
     <MaNCC>NC002</MaNCC>
-  </Hang>
-  <Hang>
-    <MaHang>TP003</MaHang>
+  </_x0027_Hang_x0027_>
+  <_x0027_Hang_x0027_>
+    <MaHang>TP003     </MaHang>
     <TenHang>Cà Tím Đà Lạt Loại To</TenHang>
     <DonViTinh>Kg</DonViTinh>
     <DonGia>117000</DonGia>
     <SoLuong>20</SoLuong>
     <MaNCC>NC004</MaNCC>
-  </Hang>
-    <Hang>
-	    <MaHang>TP004</MaHang>
-	    <TenHang>Ba Chỉ Bò NK Úc</TenHang>
-	    <DonViTinh>Kg</DonViTinh>
-	    <DonGia>190000</DonGia>
-	    <SoLuong>5</SoLuong>
-	    <MaNCC>NC003</MaNCC>
-    </Hang>
-	<Hang>
-		<MaHang>TP005</MaHang>
-		<TenHang>Cà Rốt Đà Lạt GAP</TenHang>
-		<DonViTinh>Kg</DonViTinh>
-		<DonGia>39000</DonGia>
-		<SoLuong>20</SoLuong>
-		<MaNCC>NC003</MaNCC>
-	</Hang>
+  </_x0027_Hang_x0027_>
+  <_x0027_Hang_x0027_>
+    <MaHang>TP004     </MaHang>
+    <TenHang>Ba Chỉ Bò NK Úc</TenHang>
+    <DonViTinh>Kg</DonViTinh>
+    <DonGia>190000</DonGia>
+    <SoLuong>5</SoLuong>
+    <MaNCC>NC003</MaNCC>
+  </_x0027_Hang_x0027_>
+  <_x0027_Hang_x0027_>
+    <MaHang>TP005     </MaHang>
+    <TenHang>Cà Rốt Đà Lạt GAP</TenHang>
+    <DonViTinh>Kg</DonViTinh>
+    <DonGia>39000</DonGia>
+    <SoLuong>20</SoLuong>
+    <MaNCC>NC003</MaNCC>
+  </_x0027_Hang_x0027_>
 </NewDataSet>

@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="NhanVien" msdata:UseCurrentLocale="true">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="_x0027_NhanVien_x0027_" msdata:UseCurrentLocale="true">
       <xs:complexType>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:element name="NhanVien">
+          <xs:element name="_x0027_NhanVien_x0027_">
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="MaNhanVien" type="xs:string" minOccurs="0" />
@@ -20,36 +20,44 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
-	<NhanVien>
-		<MaNhanVien>admin</MaNhanVien>
-		<TenNhanVien>Admin</TenNhanVien>
-		<NgaySinh>2001-03-05 12:00:00 AM</NgaySinh>
-		<DiaChi>Đà Nẵng</DiaChi>
-		<SDT>0961640909</SDT>
-		<Email>admin@gmail.com</Email>
-	</NhanVien>
-	<NhanVien>
-		<MaNhanVien>NV001</MaNhanVien>
-		<TenNhanVien>Nguyễn Quang Huy</TenNhanVien>
-		<NgaySinh>1999-12-12 12:00:00 AM</NgaySinh>
-		<DiaChi>Kon Tum</DiaChi>
-		<SDT>0961640909</SDT>
-		<Email>nqhuy@gmail.com</Email>
-	</NhanVien>
-  <NhanVien>
-    <MaNhanVien>NV002</MaNhanVien>
+  <_x0027_NhanVien_x0027_>
+    <MaNhanVien>admin     </MaNhanVien>
+    <TenNhanVien>Admin</TenNhanVien>
+    <NgaySinh>2001-03-05 12:00:00 AM</NgaySinh>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>961640909</SDT>
+    <Email>admin@gmail.com</Email>
+  </_x0027_NhanVien_x0027_>
+  <_x0027_NhanVien_x0027_>
+    <MaNhanVien>NV001     </MaNhanVien>
+    <TenNhanVien>Nguyễn Quang Huy</TenNhanVien>
+    <NgaySinh>1999-12-12 12:00:00 AM</NgaySinh>
+    <DiaChi>Kon Tum</DiaChi>
+    <SDT>961640909</SDT>
+    <Email>nqhuy@gmail.com</Email>
+  </_x0027_NhanVien_x0027_>
+  <_x0027_NhanVien_x0027_>
+    <MaNhanVien>NV002     </MaNhanVien>
     <TenNhanVien>Phạm Văn Thiên</TenNhanVien>
     <NgaySinh>2001-04-01 12:00:00 AM</NgaySinh>
     <DiaChi>Quãng Nam</DiaChi>
-    <SDT>0975214525</SDT>
+    <SDT>975214525</SDT>
     <Email>pvthien@gmail.com</Email>
-  </NhanVien>
-  <NhanVien>
-    <MaNhanVien>NV003</MaNhanVien>
+  </_x0027_NhanVien_x0027_>
+  <_x0027_NhanVien_x0027_>
+    <MaNhanVien>NV003     </MaNhanVien>
     <TenNhanVien>Bùi Văn Sỷ</TenNhanVien>
     <NgaySinh>2001-07-05 12:00:00 AM</NgaySinh>
     <DiaChi>Quãng Bình</DiaChi>
-    <SDT>096421425</SDT>
+    <SDT>96421425</SDT>
     <Email>bvsy@gmail.com</Email>
-  </NhanVien>
+  </_x0027_NhanVien_x0027_>
+  <_x0027_NhanVien_x0027_>
+    <MaNhanVien>NV004     </MaNhanVien>
+    <TenNhanVien>Nguyễn Thành Nhânn</TenNhanVien>
+    <NgaySinh>12/21/2021 12:00:00 AM</NgaySinh>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SDT>964125417</SDT>
+    <Email>ntnhan@gmail.com</Email>
+  </_x0027_NhanVien_x0027_>
 </NewDataSet>

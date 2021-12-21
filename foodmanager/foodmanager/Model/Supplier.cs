@@ -15,7 +15,7 @@ namespace foodmanager.Model
             XmlTextReader reader = new XmlTextReader("NhaCungCap.xml");
             XmlDocument doc = new XmlDocument();
             doc.Load(reader);
-            XmlNode node = doc.SelectSingleNode("NewDataSet/NhaCungCap[MaNCC='" + MaNCC + "']");
+            XmlNode node = doc.SelectSingleNode("NewDataSet/_x0027_NhaCungCap_x0027_[MaNCC='" + MaNCC + "']");
             reader.Close();
 
             if (node != null)
@@ -31,14 +31,14 @@ namespace foodmanager.Model
         }
         public void addSupplier(string MaNCC, string TenNCC, string DiaChi, string SDT, string Email, string MoTa)
         {
-            string noiDung = "<NhaCungCap>" +
+            string noiDung = "<_x0027_NhaCungCap_x0027_>" +
                     "<MaNCC>" + MaNCC + "</MaNCC>" +
                     "<TenNCC>" + TenNCC + "</TenNCC>" +
                     "<DiaChi>" + DiaChi + "</DiaChi>" +
                     "<SDT>" + SDT + "</SDT>" +
                     "<Email>" + Email + "</Email>" +
                     "<MoTa>" + MoTa + "</MoTa>" +
-                    "</NhaCungCap>";
+                    "</_x0027_NhaCungCap_x0027_>";
             Fxml.Them("NhaCungCap.xml", noiDung);
         }
         public void updateSuplier(string MaNCC, string TenNCC, string DiaChi, string SDT, string Email, string MoTa)
@@ -51,12 +51,12 @@ namespace foodmanager.Model
                     "<Email>" + Email + "</Email>" +
                     "<MoTa>" + MoTa + "</MoTa>";
 
-            Fxml.Sua("NhaCungCap.xml", "NhaCungCap", "MaNCC", MaNCC, noiDung);
+            Fxml.Sua("NhaCungCap.xml", "_x0027_NhaCungCap_x0027_", "MaNCC", MaNCC, noiDung);
 
         }
         public void deleteSupplier(string MaNCC)
         {
-            Fxml.Xoa("NhaCungCap.xml", "NhaCungCap", "MaNCC", MaNCC);
+            Fxml.Xoa("NhaCungCap.xml", "_x0027_NhaCungCap_x0027_", "MaNCC", MaNCC);
         }
         public DataTable LoadIdSupplier()
         {

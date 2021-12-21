@@ -16,7 +16,7 @@ namespace foodmanager.Model
             XmlTextReader reader = new XmlTextReader("NhanVien.xml");
             XmlDocument doc = new XmlDocument();
             doc.Load(reader);
-            XmlNode node = doc.SelectSingleNode("NewDataSet/NhanVien[MaNhanVien='" + MaNhanVien + "']");
+            XmlNode node = doc.SelectSingleNode("NewDataSet/_x0027_NhanVien_x0027_[MaNhanVien='" + MaNhanVien + "']");
             reader.Close();
             bool kq = true;
             if (node != null)
@@ -32,14 +32,14 @@ namespace foodmanager.Model
         }
         public void themNV(string MaNhanVien, string TenNhanVien, string NgaySinh, string DiaChi, string SDT, string Email)
         {
-            string noiDung = "<NhanVien>" +
+            string noiDung = "<_x0027_NhanVien_x0027_>" +
                     "<MaNhanVien>" + MaNhanVien + "</MaNhanVien>" +
                     "<TenNhanVien>" + TenNhanVien + "</TenNhanVien>" +
                     "<NgaySinh>" + NgaySinh + "</NgaySinh>" +
                     "<DiaChi>" + DiaChi + "</DiaChi>" +
                     "<SDT>" + SDT + "</SDT>" +
                     "<Email>" + Email + "</Email>" +
-                    "</NhanVien>";
+                    "</_x0027_NhanVien_x0027_>";
             Fxml.Them("NhanVien.xml", noiDung);
         }
         public void suaNV(string MaNhanVien, string TenNhanVien, string NgaySinh, string DiaChi, string SDT, string Email)
@@ -52,12 +52,12 @@ namespace foodmanager.Model
                     "<SDT>" + SDT + "</SDT>" +
                     "<Email>" + Email + "</Email>";
 
-            Fxml.Sua("NhanVien.xml", "NhanVien", "MaNhanVien", MaNhanVien, noiDung);
+            Fxml.Sua("NhanVien.xml", "_x0027_NhanVien_x0027_", "MaNhanVien", MaNhanVien, noiDung);
 
         }
         public void xoaNV(string MaNhanVien)
         {
-            Fxml.Xoa("NhanVien.xml", "NhanVien", "MaNhanVien", MaNhanVien);
+            Fxml.Xoa("NhanVien.xml", "_x0027_NhanVien_x0027_", "MaNhanVien", MaNhanVien);
         }
 
         public void XacNhanDiLam(string MaNhanVien, int Ngay, int Thang, int Nam)

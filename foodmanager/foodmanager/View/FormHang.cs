@@ -58,9 +58,9 @@ namespace foodmanager.View
 
         private void FormHang_Load(object sender, EventArgs e)
         {
-            /*cbbMaNCC.DataSource = ncc.LoadIdSupplier();
+            cbbMaNCC.DataSource = ncc.LoadIdSupplier();
             cbbMaNCC.DisplayMember = "TenNCC";
-            cbbMaNCC.ValueMember = "MaNCC";*/
+            cbbMaNCC.ValueMember = "MaNCC";
             hienthiHang();
         }
 

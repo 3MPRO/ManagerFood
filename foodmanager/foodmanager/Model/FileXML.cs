@@ -108,7 +108,7 @@ namespace foodmanager.Model
         {
             XmlDocument doc1 = new XmlDocument();
             doc1.Load(Application.StartupPath + "\\TaiKhoan.xml");
-            XmlNode node1 = doc1.SelectSingleNode("NewDataSet/TaiKhoan[MaNhanVien = '" + nguoiDung + "']");
+            XmlNode node1 = doc1.SelectSingleNode("NewDataSet/_x0027_TaiKhoan_x0027_[MaNhanVien = '" + nguoiDung + "']");
             if (node1 != null)
             {
                 node1.ChildNodes[1].InnerText = matKhau;
