@@ -60,4 +60,12 @@
     <SoLuong>20</SoLuong>
     <MaNCC>NC003</MaNCC>
   </_x0027_Hang_x0027_>
+  <_x0027_Hang_x0027_>
+    <MaHang>TP006</MaHang>
+    <TenHang>Thị Bò</TenHang>
+    <DonViTinh>Kg</DonViTinh>
+    <DonGia>80000</DonGia>
+    <SoLuong>50</SoLuong>
+    <MaNCC>NC003     </MaNCC>
+  </_x0027_Hang_x0027_>
 </NewDataSet>

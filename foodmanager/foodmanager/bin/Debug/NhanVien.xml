@@ -21,7 +21,7 @@
     </xs:element>
   </xs:schema>
   <_x0027_NhanVien_x0027_>
-    <MaNhanVien>admin     </MaNhanVien>
+    <MaNhanVien>admin</MaNhanVien>
     <TenNhanVien>Admin</TenNhanVien>
     <NgaySinh>2001-03-05 12:00:00 AM</NgaySinh>
     <DiaChi>Đà Nẵng</DiaChi>
@@ -29,7 +29,7 @@
     <Email>admin@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
   <_x0027_NhanVien_x0027_>
-    <MaNhanVien>NV001     </MaNhanVien>
+    <MaNhanVien>NV001</MaNhanVien>
     <TenNhanVien>Nguyễn Quang Huy</TenNhanVien>
     <NgaySinh>1999-12-12 12:00:00 AM</NgaySinh>
     <DiaChi>Kon Tum</DiaChi>
@@ -37,77 +37,19 @@
     <Email>nqhuy@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
   <_x0027_NhanVien_x0027_>
-    <MaNhanVien>NV002     </MaNhanVien>
+    <MaNhanVien>NV002</MaNhanVien>
     <TenNhanVien>Phạm Văn Thiên</TenNhanVien>
     <NgaySinh>2001-04-01 12:00:00 AM</NgaySinh>
     <DiaChi>Quãng Nam</DiaChi>
     <SDT>975214525</SDT>
     <Email>pvthien@gmail.com</Email>
-<<<<<<< HEAD
   </_x0027_NhanVien_x0027_>
   <_x0027_NhanVien_x0027_>
-    <MaNhanVien>NV003     </MaNhanVien>
-=======
-  </NhanVien>
-  <NhanVien>
-<<<<<<< HEAD
-    <MaNhanVien>NV003     </MaNhanVien>
-    <TenNhanVien>Nguyễn Vân Anh</TenNhanVien>
-    <NgaySinh>1991-08-10 12:00:00 AM</NgaySinh>
-    <DiaChi>Hưng Yên</DiaChi>
-    <SDT>1639787247</SDT>
-    <Email>Vananh@gmail.com</Email>
-  </NhanVien>
-  <NhanVien>
-    <MaNhanVien>NV004     </MaNhanVien>
-    <TenNhanVien>Phùng Văn Phong</TenNhanVien>
-    <NgaySinh>1991-08-10 12:00:00 AM</NgaySinh>
-    <DiaChi>Hà nội</DiaChi>
-    <SDT>1639787291</SDT>
-    <Email>PhungPhong@gmail.com</Email>
-  </NhanVien>
-  <NhanVien>
-    <MaNhanVien>NV005     </MaNhanVien>
-    <TenNhanVien>Lê The</TenNhanVien>
-    <NgaySinh>7/3/2020 12:00:00 AM</NgaySinh>
-    <DiaChi>05 Núi Thành</DiaChi>
-    <SDT>905123567</SDT>
-    <Email>le@gmail.com</Email>
-  <NhanVien>
-    <MaNhanVien>NV001     </MaNhanVien>
-    <TenNhanVien>Đỗ Thị Hương</TenNhanVien>
-    <DiaChi>Thanh Hoá</DiaChi>
-    <SDT>1639787456</SDT>
-    <Email>HuongDo@gmail.com</Email>
-    <NgaySinh>Monday, August 10, 1992</NgaySinh>
-  </NhanVien>
-  <NhanVien>
-    <MaNhanVien>NV001</MaNhanVien>
-    <TenNhanVien>Đỗ Thị Hương</TenNhanVien>
-    <DiaChi>Thanh Hoá</DiaChi>
-    <SDT>1639787456</SDT>
-    <Email>HuongDo@gmail.com</Email>
-    <NgaySinh>Monday, August 10, 1992</NgaySinh>
-=======
-    <MaNhanVien>NV003</MaNhanVien>
->>>>>>> b43078c5a96ed4b68d3e81a580efab4af16cb405
-    <TenNhanVien>Bùi Văn Sỷ</TenNhanVien>
-    <NgaySinh>2001-07-05 12:00:00 AM</NgaySinh>
-    <DiaChi>Quãng Bình</DiaChi>
-    <SDT>96421425</SDT>
-    <Email>bvsy@gmail.com</Email>
-<<<<<<< HEAD
-  </_x0027_NhanVien_x0027_>
-  <_x0027_NhanVien_x0027_>
-    <MaNhanVien>NV004     </MaNhanVien>
-    <TenNhanVien>Nguyễn Thành Nhânn</TenNhanVien>
+    <MaNhanVien>NV004</MaNhanVien>
+    <TenNhanVien>Nguyễn Thành Nhân</TenNhanVien>
     <NgaySinh>12/21/2021 12:00:00 AM</NgaySinh>
     <DiaChi>Đà Nẵng</DiaChi>
     <SDT>964125417</SDT>
     <Email>ntnhan@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
-=======
->>>>>>> 5c3bf6d9349670ade4d2c9cc6a50944cf0d3aef6
-  </NhanVien>
->>>>>>> b43078c5a96ed4b68d3e81a580efab4af16cb405
 </NewDataSet>

@@ -54,5 +54,15 @@ namespace foodmanager.View
                 }
             }
         }
+
+        private void dgvPhieuNhapHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int d = dgvPhieuNhapHang.CurrentRow.Index;
+            txtMaPhieu.Text = dgvPhieuNhapHang.Rows[d].Cells[0].Value.ToString();
+            txtMaHang.Text = dgvPhieuNhapHang.Rows[d].Cells[1].Value.ToString();
+            txtMaNhanVien.Text = dgvPhieuNhapHang.Rows[d].Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvPhieuNhapHang.Rows[d].Cells[3].Value.ToString();
+            dptNgaylapPhieu.Text = dgvPhieuNhapHang.Rows[d].Cells[4].Value.ToString();
+        }
     }
 }

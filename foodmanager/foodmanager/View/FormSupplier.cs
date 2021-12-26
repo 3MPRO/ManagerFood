@@ -50,36 +50,7 @@ namespace foodmanager.View
 
         private void txtSearchSupp_TextChanged_1(object sender, EventArgs e)
         {
-            XmlTextReader reader = new XmlTextReader("NhaCungCap.xml");
-            DataSet ds = new DataSet();
-            ds.ReadXml(reader);
-            DataView dv = new DataView(ds.Tables[0]);
-            dv.Sort = "MaNCC";
-            reader.Close();
-            int index = dv.Find(txtSearchSupp.Text);
-            if (index == -1)
-            {
-                MessageBox.Show("Không tìm thấy");
-                txtSearchSupp.Text = "";
-                txtSearchSupp.Focus();
-
-            }
-            else
-            {
-                DataTable dt = new DataTable();
-                dt.Columns.Add("Mã NCC");
-                dt.Columns.Add("Tên NCC");
-                dt.Columns.Add("Địa chỉ");
-                dt.Columns.Add("SDT");
-                dt.Columns.Add("Email");
-                dt.Columns.Add("Mô tả");
-
-
-                object[] list = { dv[index]["MaNCC"], dv[index]["TenNCC"], dv[index]["DiaChi"], dv[index]["SDT"], dv[index]["Email"], dv[index]["MoTa"] };
-                dt.Rows.Add(list);
-                dgvSupplier.DataSource = dt;
-                txtSearchSupp.Text = "";
-            }
+       
         }
         public void  refesh()
         {
@@ -128,6 +99,40 @@ namespace foodmanager.View
         private void btnReview_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            XmlTextReader reader = new XmlTextReader("NhaCungCap.xml");
+            DataSet ds = new DataSet();
+            ds.ReadXml(reader);
+            DataView dv = new DataView(ds.Tables[0]);
+            dv.Sort = "MaNCC";
+            reader.Close();
+            int index = dv.Find(txtSearchSupp.Text);
+            if (index == -1)
+            {
+                MessageBox.Show("Không tìm thấy");
+                txtSearchSupp.Text = "";
+                txtSearchSupp.Focus();
+
+            }
+            else
+            {
+                DataTable dt = new DataTable();
+                dt.Columns.Add("Mã NCC");
+                dt.Columns.Add("Tên NCC");
+                dt.Columns.Add("Địa chỉ");
+                dt.Columns.Add("SDT");
+                dt.Columns.Add("Email");
+                dt.Columns.Add("Mô tả");
+
+
+                object[] list = { dv[index]["MaNCC"], dv[index]["TenNCC"], dv[index]["DiaChi"], dv[index]["SDT"], dv[index]["Email"], dv[index]["MoTa"] };
+                dt.Rows.Add(list);
+                dgvSupplier.DataSource = dt;
+                txtSearchSupp.Text = "";
+            }
         }
     }
 

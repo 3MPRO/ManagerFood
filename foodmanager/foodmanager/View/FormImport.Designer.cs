@@ -114,6 +114,7 @@
             this.dgvPhieuNhapHang.RowHeadersWidth = 62;
             this.dgvPhieuNhapHang.Size = new System.Drawing.Size(752, 220);
             this.dgvPhieuNhapHang.TabIndex = 15;
+            this.dgvPhieuNhapHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhieuNhapHang_CellContentClick);
             // 
             // dptNgaylapPhieu
             // 
