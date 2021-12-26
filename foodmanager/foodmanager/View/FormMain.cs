@@ -247,5 +247,16 @@ namespace foodmanager.View
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonBanHang_Click(object sender, EventArgs e)
+        {
+            FormBanHang frm = new FormBanHang();
+            frm.ShowDialog();
+        }
     }
 }

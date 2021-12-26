@@ -16,3 +16,5 @@ D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.Generate
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CoreCompileInputs.cache
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.exe
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.pdb
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormThongKe.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormBanHang.resources
