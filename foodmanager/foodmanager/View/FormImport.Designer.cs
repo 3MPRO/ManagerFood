@@ -215,6 +215,7 @@
             this.txtMaHang.Name = "txtMaHang";
             this.txtMaHang.Size = new System.Drawing.Size(274, 30);
             this.txtMaHang.TabIndex = 31;
+            this.txtMaHang.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMaHang_KeyPress);
             // 
             // txtMaPhieu
             // 

@@ -32,6 +32,11 @@ namespace foodmanager.View
             txtMaNhanVien.ValueMember = "TenNhanVien";
             hienthiPhieuNhap();
         }
+
+        private void txtMaHang_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            txtSoLuong.Text = Fxml.LayGiaTri("Hang.xml", "MaHang", txtMaHang.Text, "SoLuong");
+        }
         public void hienthiPhieuNhap()
         {
             DataTable dt = new DataTable();
