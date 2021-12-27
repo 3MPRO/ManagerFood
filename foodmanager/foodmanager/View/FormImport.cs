@@ -15,6 +15,7 @@ namespace foodmanager.View
     {
         Import pn = new Import();
         FileXML Fxml = new FileXML();
+        Hang H = new Hang();
         nhanVien nv = new nhanVien();
         public FormImport()
         {
@@ -23,6 +24,12 @@ namespace foodmanager.View
 
         private void FormImport_Load(object sender, EventArgs e)
         {
+            txtMaHang.DataSource = H.LoadMaHang();
+            txtMaHang.DisplayMember = "MaHang"; 
+            txtMaHang.ValueMember = "TenHang";
+            txtMaNhanVien.DataSource = nv.LoadMaNV();
+            txtMaNhanVien.DisplayMember = "MaNhanVien";
+            txtMaNhanVien.ValueMember = "TenNhanVien";
             hienthiPhieuNhap();
         }
         public void hienthiPhieuNhap()

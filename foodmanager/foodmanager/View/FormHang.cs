@@ -135,5 +135,10 @@ namespace foodmanager.View
         {
 
         }
+
+        private void cbbMaNCC_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -89,5 +89,11 @@ namespace foodmanager.Model
 
             return false;
         }
+        public DataTable LoadMaNV()
+        {
+            DataTable dt = new DataTable();
+            dt = Fxml.HienThi("NhanVien.xml");
+            return dt;
+        }
     }
 }

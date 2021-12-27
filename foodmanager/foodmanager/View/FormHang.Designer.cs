@@ -66,6 +66,7 @@ namespace foodmanager.View
             this.cbbMaNCC.Name = "cbbMaNCC";
             this.cbbMaNCC.Size = new System.Drawing.Size(236, 30);
             this.cbbMaNCC.TabIndex = 30;
+            this.cbbMaNCC.SelectedIndexChanged += new System.EventHandler(this.cbbMaNCC_SelectedIndexChanged);
             // 
             // txtTimKiem
             // 

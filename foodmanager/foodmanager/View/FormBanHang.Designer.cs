@@ -37,7 +37,6 @@ namespace foodmanager.View
             this.btnThanhToan = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtMaNhanVien = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtTongTien = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -45,9 +44,10 @@ namespace foodmanager.View
             this.label3 = new System.Windows.Forms.Label();
             this.txtDonGia = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtMaHang = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblMaHang = new System.Windows.Forms.Label();
+            this.txtMaHang = new System.Windows.Forms.ComboBox();
+            this.txtMaNhanVien = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgHoaDon)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,6 +75,7 @@ namespace foodmanager.View
             this.dtgHoaDon.RowHeadersWidth = 51;
             this.dtgHoaDon.Size = new System.Drawing.Size(875, 236);
             this.dtgHoaDon.TabIndex = 34;
+            this.dtgHoaDon.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgHoaDon_CellContentClick);
             // 
             // button3
             // 
@@ -105,6 +106,7 @@ namespace foodmanager.View
             this.btnThem.TabIndex = 32;
             this.btnThem.Text = "    Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnThanhToan
             // 
@@ -141,15 +143,6 @@ namespace foodmanager.View
             this.label6.Size = new System.Drawing.Size(86, 22);
             this.label6.TabIndex = 29;
             this.label6.Text = "Ngày Lập";
-            // 
-            // txtMaNhanVien
-            // 
-            this.txtMaNhanVien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaNhanVien.Location = new System.Drawing.Point(614, 114);
-            this.txtMaNhanVien.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(237, 30);
-            this.txtMaNhanVien.TabIndex = 28;
             // 
             // label5
             // 
@@ -193,6 +186,7 @@ namespace foodmanager.View
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(237, 30);
             this.txtSoLuong.TabIndex = 24;
+            this.txtSoLuong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // label3
             // 
@@ -228,15 +222,6 @@ namespace foodmanager.View
             this.label2.TabIndex = 21;
             this.label2.Text = "Đơn Giá";
             // 
-            // txtMaHang
-            // 
-            this.txtMaHang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaHang.Location = new System.Drawing.Point(165, 114);
-            this.txtMaHang.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMaHang.Name = "txtMaHang";
-            this.txtMaHang.Size = new System.Drawing.Size(237, 30);
-            this.txtMaHang.TabIndex = 20;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -261,12 +246,36 @@ namespace foodmanager.View
             this.lblMaHang.TabIndex = 18;
             this.lblMaHang.Text = "Mã Hàng";
             // 
+            // txtMaHang
+            // 
+            this.txtMaHang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaHang.FormattingEnabled = true;
+            this.txtMaHang.Location = new System.Drawing.Point(165, 118);
+            this.txtMaHang.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMaHang.Name = "txtMaHang";
+            this.txtMaHang.Size = new System.Drawing.Size(237, 30);
+            this.txtMaHang.TabIndex = 36;
+            this.txtMaHang.SelectedIndexChanged += new System.EventHandler(this.txtMaHang_SelectedIndexChanged);
+            this.txtMaHang.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMaHang_KeyPress);
+            // 
+            // txtMaNhanVien
+            // 
+            this.txtMaNhanVien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaNhanVien.FormattingEnabled = true;
+            this.txtMaNhanVien.Location = new System.Drawing.Point(614, 106);
+            this.txtMaNhanVien.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMaNhanVien.Name = "txtMaNhanVien";
+            this.txtMaNhanVien.Size = new System.Drawing.Size(237, 30);
+            this.txtMaNhanVien.TabIndex = 37;
+            // 
             // FormBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(909, 580);
+            this.Controls.Add(this.txtMaNhanVien);
+            this.Controls.Add(this.txtMaHang);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.dtgHoaDon);
             this.Controls.Add(this.button3);
@@ -274,7 +283,6 @@ namespace foodmanager.View
             this.Controls.Add(this.btnThanhToan);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txtMaNhanVien);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtTongTien);
             this.Controls.Add(this.label4);
@@ -282,11 +290,11 @@ namespace foodmanager.View
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtDonGia);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtMaHang);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblMaHang);
             this.Name = "FormBanHang";
             this.Text = "FormBanHang";
+            this.Load += new System.EventHandler(this.FormBanHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgHoaDon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -302,7 +310,6 @@ namespace foodmanager.View
         private System.Windows.Forms.Button btnThanhToan;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtMaNhanVien;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtTongTien;
         private System.Windows.Forms.Label label4;
@@ -310,8 +317,9 @@ namespace foodmanager.View
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtDonGia;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtMaHang;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblMaHang;
+        private System.Windows.Forms.ComboBox txtMaHang;
+        private System.Windows.Forms.ComboBox txtMaNhanVien;
     }
 }

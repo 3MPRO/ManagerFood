@@ -37,13 +37,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtMaNhanVien = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtMaHang = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtMaPhieu = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtMaHang = new System.Windows.Forms.ComboBox();
+            this.txtMaPhieu = new System.Windows.Forms.TextBox();
+            this.txtMaNhanVien = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuNhapHang)).BeginInit();
             this.SuspendLayout();
@@ -158,15 +158,6 @@
             this.label5.TabIndex = 24;
             this.label5.Text = "Số lượng";
             // 
-            // txtMaNhanVien
-            // 
-            this.txtMaNhanVien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaNhanVien.Location = new System.Drawing.Point(198, 203);
-            this.txtMaNhanVien.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(274, 30);
-            this.txtMaNhanVien.TabIndex = 23;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -179,15 +170,6 @@
             this.label4.TabIndex = 22;
             this.label4.Text = "Mã nhân viên lập";
             // 
-            // txtMaHang
-            // 
-            this.txtMaHang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaHang.Location = new System.Drawing.Point(198, 144);
-            this.txtMaHang.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMaHang.Name = "txtMaHang";
-            this.txtMaHang.Size = new System.Drawing.Size(274, 30);
-            this.txtMaHang.TabIndex = 21;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -199,15 +181,6 @@
             this.label3.Size = new System.Drawing.Size(82, 22);
             this.label3.TabIndex = 20;
             this.label3.Text = "Mã Hàng";
-            // 
-            // txtMaPhieu
-            // 
-            this.txtMaPhieu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaPhieu.Location = new System.Drawing.Point(198, 95);
-            this.txtMaPhieu.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMaPhieu.Name = "txtMaPhieu";
-            this.txtMaPhieu.Size = new System.Drawing.Size(274, 30);
-            this.txtMaPhieu.TabIndex = 19;
             // 
             // label2
             // 
@@ -233,21 +206,50 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "THÔNG TIN NHẬP HÀNG";
             // 
+            // txtMaHang
+            // 
+            this.txtMaHang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaHang.FormattingEnabled = true;
+            this.txtMaHang.Location = new System.Drawing.Point(198, 150);
+            this.txtMaHang.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMaHang.Name = "txtMaHang";
+            this.txtMaHang.Size = new System.Drawing.Size(274, 30);
+            this.txtMaHang.TabIndex = 31;
+            // 
+            // txtMaPhieu
+            // 
+            this.txtMaPhieu.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaPhieu.Location = new System.Drawing.Point(198, 95);
+            this.txtMaPhieu.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMaPhieu.Name = "txtMaPhieu";
+            this.txtMaPhieu.Size = new System.Drawing.Size(274, 30);
+            this.txtMaPhieu.TabIndex = 19;
+            // 
+            // txtMaNhanVien
+            // 
+            this.txtMaNhanVien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaNhanVien.FormattingEnabled = true;
+            this.txtMaNhanVien.Location = new System.Drawing.Point(198, 204);
+            this.txtMaNhanVien.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMaNhanVien.Name = "txtMaNhanVien";
+            this.txtMaNhanVien.Size = new System.Drawing.Size(274, 30);
+            this.txtMaNhanVien.TabIndex = 32;
+            // 
             // FormImport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(943, 588);
+            this.Controls.Add(this.txtMaNhanVien);
+            this.Controls.Add(this.txtMaHang);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dgvPhieuNhapHang);
             this.Controls.Add(this.dptNgaylapPhieu);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtSoLuong);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtMaNhanVien);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtMaHang);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtMaPhieu);
             this.Controls.Add(this.label2);
@@ -274,12 +276,12 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtSoLuong;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtMaNhanVien;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtMaHang;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtMaPhieu;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox txtMaHang;
+        private System.Windows.Forms.TextBox txtMaPhieu;
+        private System.Windows.Forms.ComboBox txtMaNhanVien;
     }
 }

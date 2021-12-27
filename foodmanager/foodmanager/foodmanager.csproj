@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\DangNhap.cs" />
+    <Compile Include="Model\HoaDon.cs" />
     <Compile Include="Model\Main.cs" />
     <Compile Include="Model\DoiMatKhau.cs" />
     <Compile Include="Model\FileXML.cs" />
