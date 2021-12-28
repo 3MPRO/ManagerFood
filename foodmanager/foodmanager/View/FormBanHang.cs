@@ -84,16 +84,12 @@ namespace foodmanager.View
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            /*if (HD.kiemtraSHD(txt.Text) == true)
-            {
-                MessageBox.Show("Mã hàng đã tồn tại");
-            }
-            else
-            {*/
-                HD.themHD(txtMaHang.Text, dateTimePicker1.Text, txtTongTien.Text);
+
+                DateTime dt = DateTime.Parse(dateTimePicker1.Text);
+                HD.themHD(txtMaNhanVien.Text, dt.ToString(), txtTongTien.Text,txtMaHang.Text,txtDonGia.Text,txtSoLuong.Text);
                 MessageBox.Show("Ok");
                 hienthiHoaDon();
-            //}
+           
         }
     }
 }

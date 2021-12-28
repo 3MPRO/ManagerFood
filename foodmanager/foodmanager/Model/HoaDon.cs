@@ -11,51 +11,29 @@ namespace foodmanager.Model
     {
         FileXML Fxml = new FileXML();
 
-        public bool kiemtraSHD(string SoHD)
-        {
-            XmlTextReader reader = new XmlTextReader("HoaDon.xml");
-            XmlDocument doc = new XmlDocument();
-            doc.Load(reader);
-            XmlNode node = doc.SelectSingleNode("NewDataSet/_x0027_HoaDon_x0027_[SoHoaDon='" + SoHD + "']");
-            reader.Close();
-            bool kq = true;
-            if (node != null)
-            {
-                return kq = true;
-            }
-            else
-            {
-                return kq = false;
-
-            }
-
-        }
-
-        public void themHD(string MaNV, string NgayLap, string TongTien)
+        public void themHD(string MaNV, string NgayLap, string TongTien, string MaHang, string DonGia, string SoLuong)
         {
             string noiDung = "<_x0027_HoaDon_x0027_>" +
                     /*"<SoHoaDon>" + SoHD + "</SoHoaDon>" +*/
-                    "<MaNhanVien>" + MaNV + "</TenHang>" +
-                    "<NgayLap>" + NgayLap + "</DonViTinh>" +
-                    "<TongTien>" + TongTien + "</DonGia>" +
-                    "</_x0027_HoaDon_x0027_>";
-            Fxml.Them("HoaDon.xml", noiDung);
-        }
-        public void suaHD(string SoHD, string MaNV, string NgayLap, string TongTien)
-        {
-
-            string noiDung = "<_x0027_HoaDon_x0027_>" +
-                    "<SoHoaDon>" + SoHD + "</SoHoaDon>" +
                     "<MaNhanVien>" + MaNV + "</MaNhanVien>" +
                     "<NgayLap>" + NgayLap + "</NgayLap>" +
-                    "<TongTien>" + TongTien + "</TongTien>";
-
-            Fxml.Sua("HoaDon.xml", "_x0027_HoaDon_x0027_", "SoHoaDon", SoHD, noiDung);
-
+                    "<TongTien>" + TongTien + "</TongTien>" +
+                    "</_x0027_HoaDon_x0027_>";
+            Fxml.Them("HoaDon.xml", noiDung);
+            string noiDung1 = "<_x0027_ChiTietHoaDon_x0027_>" +
+                    /*"<Id>" + Id + "</Id>" +*/
+                    "<MaHang>" + MaHang + "</MaHang>" +
+                    /*"<SoHoaDon>" + SoHoaDon + "</SoHoaDon>" +*/
+                    "<DonGia>" + DonGia + "</DonGia>" +
+                    "<SoLuong>" + SoLuong + "</SoLuong>" +
+                    "</_x0027_ChiTietHoaDon_x0027_>";
+            Fxml.Them("ChiTietHoaDon.xml", noiDung1);
         }
+        
         public void xoaH(string SoHD)
         {
             Fxml.Xoa("HoaDon.xml", "_x0027_HoaDon_x0027_", "SoHoaDon", SoHD);
+            Fxml.Xoa("HoaDon.xml", "_x0027_ChiTietHoaDon_x0027_", "SoHoaDon", SoHD);
         }
 
         public DataTable LoadIDHoaDon()
