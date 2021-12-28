@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <NewDataSet>
   <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="_x0027_HoaDon_x0027_" msdata:UseCurrentLocale="true">
@@ -19,15 +19,15 @@
     </xs:element>
   </xs:schema>
   <_x0027_HoaDon_x0027_>
-    <SoHoaDon>1</SoHoaDon>
     <MaNhanVien>NV001</MaNhanVien>
     <NgayLap>12/28/2021 12:00:00 AM</NgayLap>
     <TongTien>6660000</TongTien>
+    <SoHoaDon>HD1</SoHoaDon>
   </_x0027_HoaDon_x0027_>
   <_x0027_HoaDon_x0027_>
-    <SoHoaDon>2</SoHoaDon>
     <MaNhanVien>NV002</MaNhanVien>
     <NgayLap>12/28/2021 12:00:00 AM</NgayLap>
-    <TongTien>351000</TongTien>
+    <TongTien>6660000</TongTien>
+    <SoHoaDon>HD2</SoHoaDon>
   </_x0027_HoaDon_x0027_>
 </NewDataSet>
