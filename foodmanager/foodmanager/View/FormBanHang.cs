@@ -51,7 +51,8 @@ namespace foodmanager.View
         public void hienthiHoaDon()
         {
             DataTable dt = new DataTable();
-            dt = Fxml.HienThi("HoaDon.xml");
+            /*dt = Fxml.HienThi("HoaDon.xml");*/
+            dt = Fxml.HienThi("ChiTietHoaDon.xml");
             dtgHoaDon.DataSource = dt;
         }
 
@@ -73,13 +74,10 @@ namespace foodmanager.View
 
         private void dtgHoaDon_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            int d = dtgHoaDon.CurrentRow.Index;
-            txtMaHang.SelectedValue = dtgHoaDon.Rows[d].Cells[0].Value.ToString();
-            txtDonGia.Text = dtgHoaDon.Rows[d].Cells[1].Value.ToString();
-            txtSoLuong.Text = dtgHoaDon.Rows[d].Cells[2].Value.ToString();
-            txtMaNhanVien.SelectedValue = dtgHoaDon.Rows[d].Cells[3].Value.ToString();
-            dateTimePicker1.Text = dtgHoaDon.Rows[d].Cells[4].Value.ToString();
-            txtMaNhanVien.SelectedValue = dtgHoaDon.Rows[d].Cells[5].Value.ToString();
+            /*int d = dtgHoaDon.CurrentRow.Index;
+            txtMaHang.SelectedValue = dtgHoaDon.Rows[d].Cells[1].Value.ToString();
+            txtDonGia.Text = dtgHoaDon.Rows[d].Cells[3].Value.ToString();
+            txtSoLuong.Text = dtgHoaDon.Rows[d].Cells[4].Value.ToString();*/
         }
 
         private void btnThem_Click(object sender, EventArgs e)
