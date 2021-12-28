@@ -23,30 +23,9 @@ namespace foodmanager.View
             InitializeComponent();
         }
 
-        private void txtMaHang_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            txtDonGia.Text = Fxml.LayGiaTri("Hang.xml", "MaHang", txtMaHang.Text, "DonGia");
-        }
-
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (txtSoLuong.Text == " ")
-            {
-                txtSoLuong.Text = "";
-            }
-            else
-            {
-                try
-                {
-                    int a = int.Parse(txtSoLuong.Text);
-                    long t = int.Parse(txtDonGia.Text) * int.Parse(txtSoLuong.Text);
-                    txtTongTien.Text = t.ToString();
-                }
-                catch
-                {
-                    txtSoLuong.Text = "";
-                }
-            }
+            
         }
         public void hienthiHoaDon()
         {
@@ -68,7 +47,11 @@ namespace foodmanager.View
 
         private void txtMaHang_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            //MessageBox.Show("Ma hang", txtMaHang.Text);
+            txtDonGia.Text = Fxml.LayGiaTri("Hang.xml", "MaHang", txtMaHang.Text, "DonGia");
+            //txtDonGia.Text = txtMaHang.SelectedItem.ToString();
+            txtSoLuong.Text = "";
+            txtTongTien.Text = "";
         }
 
         private void dtgHoaDon_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -90,6 +73,32 @@ namespace foodmanager.View
                 MessageBox.Show("Ok");
                 hienthiHoaDon();
            
+        }
+
+        private void btnThanhToan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSoLuong_TextChanged(object sender, EventArgs e)
+        {
+            if (txtSoLuong.Text == "")
+            {
+                txtSoLuong.Text = "";
+            }
+            else
+            {
+                try
+                {
+                    int a = int.Parse(txtSoLuong.Text);
+                    long t = int.Parse(txtDonGia.Text) * int.Parse(txtSoLuong.Text);
+                    txtTongTien.Text = t.ToString();
+                }
+                catch
+                {
+                    txtSoLuong.Text = "";
+                }
+            }
         }
     }
 }

@@ -39,3 +39,5 @@ E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormThongKe.resources
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormBanHang.resources
 >>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormBanHang.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormThongKe.resources
