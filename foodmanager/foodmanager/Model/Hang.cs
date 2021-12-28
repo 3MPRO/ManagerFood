@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
+using System.Data;
 
 namespace foodmanager.Model
 {
@@ -58,5 +59,11 @@ namespace foodmanager.Model
             Fxml.Xoa("Hang.xml", "_x0027_Hang_x0027_", "MaHang", MaHang);
         }
 
+        public DataTable LoadMaHang()
+        {
+            DataTable dt = new DataTable();
+            dt = Fxml.HienThi("Hang.xml");
+            return dt;
+        }
     }
 }

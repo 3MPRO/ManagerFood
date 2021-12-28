@@ -19,4 +19,10 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
+  <ChamCong>
+    <MaNhanVien>NV001</MaNhanVien>
+    <Ngay>26</Ngay>
+    <Thang>12</Thang>
+    <Nam>2021</Nam>
+  </ChamCong>
 </NewDataSet>

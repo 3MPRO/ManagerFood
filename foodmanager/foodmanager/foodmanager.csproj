@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\DangNhap.cs" />
+    <Compile Include="Model\HoaDon.cs" />
     <Compile Include="Model\Main.cs" />
     <Compile Include="Model\DoiMatKhau.cs" />
     <Compile Include="Model\FileXML.cs" />
@@ -59,6 +60,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormBanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormBanHang.Designer.cs">
+      <DependentUpon>FormBanHang.cs</DependentUpon>
     </Compile>
     <Compile Include="View\FormDangNhap.cs">
       <SubType>Form</SubType>
@@ -104,6 +111,12 @@
     <Compile Include="View\FormTaiKhoanNV.Designer.cs">
       <DependentUpon>FormTaiKhoanNV.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\FormThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormThongKe.Designer.cs">
+      <DependentUpon>FormThongKe.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\FormXacNhanDiLam.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +129,9 @@
     <Compile Include="View\NhanVien.Designer.cs">
       <DependentUpon>NhanVien.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\FormBanHang.resx">
+      <DependentUpon>FormBanHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormTaiKhoanNV.resx">
       <DependentUpon>FormTaiKhoanNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormThongKe.resx">
+      <DependentUpon>FormThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormXacNhanDiLam.resx">
       <DependentUpon>FormXacNhanDiLam.cs</DependentUpon>

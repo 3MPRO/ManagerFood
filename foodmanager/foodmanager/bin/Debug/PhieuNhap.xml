@@ -19,4 +19,18 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
+  <_x0027_PhieuNhap_x0027_>
+    <MaPhieu>001</MaPhieu>
+    <MaHang>TP001</MaHang>
+    <MaNhanVien>NV001</MaNhanVien>
+    <SoLuongNhap>25</SoLuongNhap>
+    <NgayLapPhieu>12/26/2021 12:00:00 AM</NgayLapPhieu>
+  </_x0027_PhieuNhap_x0027_>
+  <_x0027_PhieuNhap_x0027_>
+    <MaPhieu>2</MaPhieu>
+    <MaHang>TP002</MaHang>
+    <MaNhanVien>NV002</MaNhanVien>
+    <SoLuongNhap>50</SoLuongNhap>
+    <NgayLapPhieu>12/26/2021 12:00:00 AM</NgayLapPhieu>
+  </_x0027_PhieuNhap_x0027_>
 </NewDataSet>

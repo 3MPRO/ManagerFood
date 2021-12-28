@@ -21,7 +21,7 @@
     </xs:element>
   </xs:schema>
   <_x0027_Hang_x0027_>
-    <MaHang>TP001     </MaHang>
+    <MaHang>TP001</MaHang>
     <TenHang>Cá Hồi Tươi Nhập Khẩu</TenHang>
     <DonViTinh>Kg</DonViTinh>
     <DonGia>2220000</DonGia>
@@ -29,7 +29,7 @@
     <MaNCC>NC001</MaNCC>
   </_x0027_Hang_x0027_>
   <_x0027_Hang_x0027_>
-    <MaHang>TP002     </MaHang>
+    <MaHang>TP002</MaHang>
     <TenHang>Cá hộp 3 cô gái</TenHang>
     <DonViTinh>hộpppp</DonViTinh>
     <DonGia>17000</DonGia>
@@ -37,7 +37,7 @@
     <MaNCC>NC002     </MaNCC>
   </_x0027_Hang_x0027_>
   <_x0027_Hang_x0027_>
-    <MaHang>TP003     </MaHang>
+    <MaHang>TP003</MaHang>
     <TenHang>Cà Tím Đà Lạt Loại To</TenHang>
     <DonViTinh>Kg</DonViTinh>
     <DonGia>117000</DonGia>
@@ -45,7 +45,7 @@
     <MaNCC>NC004</MaNCC>
   </_x0027_Hang_x0027_>
   <_x0027_Hang_x0027_>
-    <MaHang>TP004     </MaHang>
+    <MaHang>TP004</MaHang>
     <TenHang>Ba Chỉ Bò NK Úc</TenHang>
     <DonViTinh>Kg</DonViTinh>
     <DonGia>190000</DonGia>
@@ -53,11 +53,19 @@
     <MaNCC>NC003</MaNCC>
   </_x0027_Hang_x0027_>
   <_x0027_Hang_x0027_>
-    <MaHang>TP005     </MaHang>
+    <MaHang>TP005</MaHang>
     <TenHang>Cà Rốt Đà Lạt GAP</TenHang>
     <DonViTinh>Kg</DonViTinh>
     <DonGia>39000</DonGia>
     <SoLuong>20</SoLuong>
+    <MaNCC>NC003</MaNCC>
+  </_x0027_Hang_x0027_>
+  <_x0027_Hang_x0027_>
+    <MaHang>TP006</MaHang>
+    <TenHang>Thị Bò</TenHang>
+    <DonViTinh>Kg</DonViTinh>
+    <DonGia>80000</DonGia>
+    <SoLuong>50</SoLuong>
     <MaNCC>NC003</MaNCC>
   </_x0027_Hang_x0027_>
 </NewDataSet>

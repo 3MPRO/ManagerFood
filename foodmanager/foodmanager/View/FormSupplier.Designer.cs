@@ -50,6 +50,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.btnTimKiem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSupplier)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,7 +65,7 @@
             this.dgvSupplier.RowHeadersWidth = 62;
             this.dgvSupplier.RowTemplate.Height = 28;
             this.dgvSupplier.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSupplier.Size = new System.Drawing.Size(801, 174);
+            this.dgvSupplier.Size = new System.Drawing.Size(801, 269);
             this.dgvSupplier.TabIndex = 27;
             this.dgvSupplier.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSupplier_CellContentClick_1);
             // 
@@ -87,7 +88,7 @@
             // txtSearchSupp
             // 
             this.txtSearchSupp.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchSupp.Location = new System.Drawing.Point(604, 306);
+            this.txtSearchSupp.Location = new System.Drawing.Point(449, 311);
             this.txtSearchSupp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearchSupp.Name = "txtSearchSupp";
             this.txtSearchSupp.Size = new System.Drawing.Size(248, 30);
@@ -115,7 +116,7 @@
             // txtEmailSupp
             // 
             this.txtEmailSupp.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmailSupp.Location = new System.Drawing.Point(668, 110);
+            this.txtEmailSupp.Location = new System.Drawing.Point(668, 116);
             this.txtEmailSupp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmailSupp.Name = "txtEmailSupp";
             this.txtEmailSupp.Size = new System.Drawing.Size(184, 30);
@@ -124,7 +125,7 @@
             // txtNameSupp
             // 
             this.txtNameSupp.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNameSupp.Location = new System.Drawing.Point(223, 112);
+            this.txtNameSupp.Location = new System.Drawing.Point(223, 118);
             this.txtNameSupp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNameSupp.Name = "txtNameSupp";
             this.txtNameSupp.Size = new System.Drawing.Size(200, 30);
@@ -164,7 +165,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label8.Location = new System.Drawing.Point(421, 314);
+            this.label8.Location = new System.Drawing.Point(266, 319);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(169, 22);
             this.label8.TabIndex = 13;
@@ -186,7 +187,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label6.Location = new System.Drawing.Point(545, 114);
+            this.label6.Location = new System.Drawing.Point(545, 120);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(63, 22);
             this.label6.TabIndex = 14;
@@ -230,7 +231,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(105, 114);
+            this.label1.Location = new System.Drawing.Point(105, 120);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 22);
             this.label1.TabIndex = 7;
@@ -300,12 +301,29 @@
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
+            // btnTimKiem
+            // 
+            this.btnTimKiem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnTimKiem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiem.ForeColor = System.Drawing.Color.White;
+            this.btnTimKiem.Image = global::foodmanager.Properties.Resources.search;
+            this.btnTimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTimKiem.Location = new System.Drawing.Point(709, 304);
+            this.btnTimKiem.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(160, 41);
+            this.btnTimKiem.TabIndex = 28;
+            this.btnTimKiem.Text = "   Tìm Kiếm";
+            this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
+            // 
             // FormSupplier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(962, 549);
+            this.ClientSize = new System.Drawing.Size(962, 633);
+            this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.dgvSupplier);
             this.Controls.Add(this.btnReview);
             this.Controls.Add(this.btnShow);
@@ -360,5 +378,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnTimKiem;
     }
 }

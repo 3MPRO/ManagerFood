@@ -21,7 +21,7 @@
     </xs:element>
   </xs:schema>
   <_x0027_NhanVien_x0027_>
-    <MaNhanVien>admin     </MaNhanVien>
+    <MaNhanVien>admin</MaNhanVien>
     <TenNhanVien>Admin</TenNhanVien>
     <NgaySinh>2001-03-05 12:00:00 AM</NgaySinh>
     <DiaChi>Đà Nẵng</DiaChi>
@@ -29,7 +29,7 @@
     <Email>admin@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
   <_x0027_NhanVien_x0027_>
-    <MaNhanVien>NV001     </MaNhanVien>
+    <MaNhanVien>NV001</MaNhanVien>
     <TenNhanVien>Nguyễn Quang Huy</TenNhanVien>
     <NgaySinh>1999-12-12 12:00:00 AM</NgaySinh>
     <DiaChi>Kon Tum</DiaChi>
@@ -37,7 +37,7 @@
     <Email>nqhuy@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
   <_x0027_NhanVien_x0027_>
-    <MaNhanVien>NV002     </MaNhanVien>
+    <MaNhanVien>NV002</MaNhanVien>
     <TenNhanVien>Phạm Văn Thiên</TenNhanVien>
     <NgaySinh>2001-04-01 12:00:00 AM</NgaySinh>
     <DiaChi>Quãng Nam</DiaChi>
@@ -45,13 +45,14 @@
     <Email>pvthien@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
   <_x0027_NhanVien_x0027_>
-    <MaNhanVien>NV004     </MaNhanVien>
-    <TenNhanVien>Nguyễn Thành Nhânn</TenNhanVien>
+    <MaNhanVien>NV004</MaNhanVien>
+    <TenNhanVien>Nguyễn Thành Nhân</TenNhanVien>
     <NgaySinh>12/21/2021 12:00:00 AM</NgaySinh>
     <DiaChi>Đà Nẵng</DiaChi>
     <SDT>964125417</SDT>
     <Email>ntnhan@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
+<<<<<<< HEAD
   <_x0027_NhanVien_x0027_>
     <MaNhanVien>NV005</MaNhanVien>
     <TenNhanVien>BuiVanSy</TenNhanVien>
@@ -60,4 +61,6 @@
     <SDT>092338283</SDT>
     <Email>buivansy14@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
+=======
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
 </NewDataSet>

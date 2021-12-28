@@ -15,6 +15,7 @@ namespace foodmanager.View
     {
         Import pn = new Import();
         FileXML Fxml = new FileXML();
+        Hang H = new Hang();
         nhanVien nv = new nhanVien();
         public FormImport()
         {
@@ -23,7 +24,18 @@ namespace foodmanager.View
 
         private void FormImport_Load(object sender, EventArgs e)
         {
+            txtMaHang.DataSource = H.LoadMaHang();
+            txtMaHang.DisplayMember = "MaHang"; 
+            txtMaHang.ValueMember = "TenHang";
+            txtMaNhanVien.DataSource = nv.LoadMaNV();
+            txtMaNhanVien.DisplayMember = "MaNhanVien";
+            txtMaNhanVien.ValueMember = "TenNhanVien";
             hienthiPhieuNhap();
+        }
+
+        private void txtMaHang_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            txtSoLuong.Text = Fxml.LayGiaTri("Hang.xml", "MaHang", txtMaHang.Text, "SoLuong");
         }
         public void hienthiPhieuNhap()
         {
@@ -53,6 +65,16 @@ namespace foodmanager.View
                     hienthiPhieuNhap();
                 }
             }
+        }
+
+        private void dgvPhieuNhapHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int d = dgvPhieuNhapHang.CurrentRow.Index;
+            txtMaPhieu.Text = dgvPhieuNhapHang.Rows[d].Cells[0].Value.ToString();
+            txtMaHang.Text = dgvPhieuNhapHang.Rows[d].Cells[1].Value.ToString();
+            txtMaNhanVien.Text = dgvPhieuNhapHang.Rows[d].Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvPhieuNhapHang.Rows[d].Cells[3].Value.ToString();
+            dptNgaylapPhieu.Text = dgvPhieuNhapHang.Rows[d].Cells[4].Value.ToString();
         }
     }
 }
