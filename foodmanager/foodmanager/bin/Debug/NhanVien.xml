@@ -52,4 +52,15 @@
     <SDT>964125417</SDT>
     <Email>ntnhan@gmail.com</Email>
   </_x0027_NhanVien_x0027_>
+<<<<<<< HEAD
+  <_x0027_NhanVien_x0027_>
+    <MaNhanVien>NV005</MaNhanVien>
+    <TenNhanVien>BuiVanSy</TenNhanVien>
+    <NgaySinh>12/26/2021 12:00:00 AM</NgaySinh>
+    <DiaChi>Quang Tri</DiaChi>
+    <SDT>092338283</SDT>
+    <Email>buivansy14@gmail.com</Email>
+  </_x0027_NhanVien_x0027_>
+=======
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
 </NewDataSet>

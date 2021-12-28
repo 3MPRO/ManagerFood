@@ -40,12 +40,19 @@ namespace foodmanager.View
             this.Label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+            this.PictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+=======
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             this.btnHang = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnNhanVien = new System.Windows.Forms.Button();
+<<<<<<< HEAD
+=======
             this.buttonBanHang = new System.Windows.Forms.Button();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -59,6 +66,7 @@ namespace foodmanager.View
             this.đăngNhậpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đổiMậtKhẩuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             this.menuStrip1.SuspendLayout();
             this.Panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -81,11 +89,63 @@ namespace foodmanager.View
             this.chuyểnĐổiToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+<<<<<<< HEAD
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(729, 28);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // đăngNhâpToolStripMenuItem
+            // 
+            this.đăngNhâpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.đăngNhậpToolStripMenuItem,
+            this.đổiMậtKhẩuToolStripMenuItem,
+            this.đăngXuấtToolStripMenuItem});
+            this.đăngNhâpToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.đăngNhâpToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.đăngNhâpToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngNhâpToolStripMenuItem.Image")));
+            this.đăngNhâpToolStripMenuItem.Name = "đăngNhâpToolStripMenuItem";
+            this.đăngNhâpToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
+            this.đăngNhâpToolStripMenuItem.Text = "Cá nhân";
+            this.đăngNhâpToolStripMenuItem.Click += new System.EventHandler(this.đăngNhâpToolStripMenuItem_Click);
+            // 
+            // đăngNhậpToolStripMenuItem
+            // 
+            this.đăngNhậpToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.đăngNhậpToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.đăngNhậpToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngNhậpToolStripMenuItem.Image")));
+            this.đăngNhậpToolStripMenuItem.Name = "đăngNhậpToolStripMenuItem";
+            this.đăngNhậpToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.đăngNhậpToolStripMenuItem.Text = "Đăng nhập";
+            this.đăngNhậpToolStripMenuItem.Click += new System.EventHandler(this.đăngNhậpToolStripMenuItem_Click);
+            // 
+            // đổiMậtKhẩuToolStripMenuItem
+            // 
+            this.đổiMậtKhẩuToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.đổiMậtKhẩuToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.đổiMậtKhẩuToolStripMenuItem.Image = global::foodmanager.Properties.Resources.loading;
+            this.đổiMậtKhẩuToolStripMenuItem.Name = "đổiMậtKhẩuToolStripMenuItem";
+            this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.đổiMậtKhẩuToolStripMenuItem.Text = "Đổi mật khẩu";
+            this.đổiMậtKhẩuToolStripMenuItem.Click += new System.EventHandler(this.đổiMậtKhẩuToolStripMenuItem_Click);
+            // 
+            // đăngXuấtToolStripMenuItem
+            // 
+            this.đăngXuấtToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.đăngXuấtToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.đăngXuấtToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngXuấtToolStripMenuItem.Image")));
+            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
+            // 
+=======
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(1279, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             // chuyểnĐổiToolStripMenuItem
             // 
             this.chuyểnĐổiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -94,7 +154,7 @@ namespace foodmanager.View
             this.chuyểnĐổiToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chuyểnĐổiToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.chuyểnĐổiToolStripMenuItem.Name = "chuyểnĐổiToolStripMenuItem";
-            this.chuyểnĐổiToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
+            this.chuyểnĐổiToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
             this.chuyểnĐổiToolStripMenuItem.Text = "Chuyển đổi dữ liệu";
             this.chuyểnĐổiToolStripMenuItem.Click += new System.EventHandler(this.chuyểnĐổiToolStripMenuItem_Click);
             // 
@@ -103,7 +163,7 @@ namespace foodmanager.View
             this.từSQLXMLToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.từSQLXMLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.từSQLXMLToolStripMenuItem.Name = "từSQLXMLToolStripMenuItem";
-            this.từSQLXMLToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
+            this.từSQLXMLToolStripMenuItem.Size = new System.Drawing.Size(176, 24);
             this.từSQLXMLToolStripMenuItem.Text = "Từ SQL - XML";
             this.từSQLXMLToolStripMenuItem.Click += new System.EventHandler(this.từSQLXMLToolStripMenuItem_Click);
             // 
@@ -112,7 +172,7 @@ namespace foodmanager.View
             this.từXMLSQLToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.từXMLSQLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.từXMLSQLToolStripMenuItem.Name = "từXMLSQLToolStripMenuItem";
-            this.từXMLSQLToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
+            this.từXMLSQLToolStripMenuItem.Size = new System.Drawing.Size(176, 24);
             this.từXMLSQLToolStripMenuItem.Text = "Từ XML - SQL";
             this.từXMLSQLToolStripMenuItem.Click += new System.EventHandler(this.từXMLSQLToolStripMenuItem_Click);
             // 
@@ -121,13 +181,28 @@ namespace foodmanager.View
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Segoe Script", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(129, 31);
+            this.Label1.Location = new System.Drawing.Point(97, 25);
+            this.Label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(316, 46);
+            this.Label1.Size = new System.Drawing.Size(252, 37);
             this.Label1.TabIndex = 1;
             this.Label1.Text = "Quản lý thực phẩm";
             this.Label1.Click += new System.EventHandler(this.Label1_Click);
             // 
+<<<<<<< HEAD
+            // PictureBox1
+            // 
+            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
+            this.PictureBox1.Location = new System.Drawing.Point(9, 7);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.Size = new System.Drawing.Size(93, 78);
+            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox1.TabIndex = 0;
+            this.PictureBox1.TabStop = false;
+            // 
+=======
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             // Panel1
             // 
             this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -135,9 +210,14 @@ namespace foodmanager.View
             this.Panel1.Controls.Add(this.Label2);
             this.Panel1.Controls.Add(this.Label1);
             this.Panel1.Controls.Add(this.PictureBox1);
-            this.Panel1.Location = new System.Drawing.Point(0, 27);
+            this.Panel1.Location = new System.Drawing.Point(0, 22);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Panel1.Name = "Panel1";
+<<<<<<< HEAD
+            this.Panel1.Size = new System.Drawing.Size(940, 97);
+=======
             this.Panel1.Size = new System.Drawing.Size(1327, 119);
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             this.Panel1.TabIndex = 1;
             // 
             // lblHoTen
@@ -145,9 +225,10 @@ namespace foodmanager.View
             this.lblHoTen.AutoSize = true;
             this.lblHoTen.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHoTen.ForeColor = System.Drawing.Color.White;
-            this.lblHoTen.Location = new System.Drawing.Point(734, 22);
+            this.lblHoTen.Location = new System.Drawing.Point(550, 18);
+            this.lblHoTen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHoTen.Name = "lblHoTen";
-            this.lblHoTen.Size = new System.Drawing.Size(54, 33);
+            this.lblHoTen.Size = new System.Drawing.Size(43, 27);
             this.lblHoTen.TabIndex = 4;
             this.lblHoTen.Text = "Tên";
             this.lblHoTen.Click += new System.EventHandler(this.lblHoTen_Click);
@@ -157,9 +238,10 @@ namespace foodmanager.View
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Segoe Script", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(633, 14);
+            this.Label2.Location = new System.Drawing.Point(475, 11);
+            this.Label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(104, 46);
+            this.Label2.Size = new System.Drawing.Size(83, 37);
             this.Label2.TabIndex = 3;
             this.Label2.Text = "Chào:";
             this.Label2.Click += new System.EventHandler(this.Label2_Click);
@@ -168,8 +250,47 @@ namespace foodmanager.View
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(-7, 666);
+            this.panel2.Location = new System.Drawing.Point(-5, 541);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
+<<<<<<< HEAD
+            this.panel2.Size = new System.Drawing.Size(757, 41);
+            this.panel2.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe Script", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(226, 2);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(355, 22);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Ứng dụng được phát triển bởi nhóm 3MPRO";
+            // 
+            // PictureBox4
+            // 
+            this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
+            this.PictureBox4.Location = new System.Drawing.Point(74, 132);
+            this.PictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PictureBox4.Name = "PictureBox4";
+            this.PictureBox4.Size = new System.Drawing.Size(112, 122);
+            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox4.TabIndex = 8;
+            this.PictureBox4.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(315, 132);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(112, 122);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+=======
             this.panel2.Size = new System.Drawing.Size(1326, 50);
             this.panel2.TabIndex = 2;
             // 
@@ -184,67 +305,141 @@ namespace foodmanager.View
             this.label3.TabIndex = 5;
             this.label3.Text = "Ứng dụng được phát triển bởi nhóm 3MPRO";
             this.label3.Click += new System.EventHandler(this.label3_Click);
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             // 
             // btnHang
             // 
             this.btnHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnHang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHang.ForeColor = System.Drawing.Color.White;
-            this.btnHang.Location = new System.Drawing.Point(358, 319);
+            this.btnHang.Location = new System.Drawing.Point(268, 259);
+            this.btnHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHang.Name = "btnHang";
-            this.btnHang.Size = new System.Drawing.Size(259, 42);
+            this.btnHang.Size = new System.Drawing.Size(194, 34);
             this.btnHang.TabIndex = 9;
             this.btnHang.Text = "Quản lý hàng";
             this.btnHang.UseVisualStyleBackColor = false;
             this.btnHang.Click += new System.EventHandler(this.btnHang_Click);
             // 
+<<<<<<< HEAD
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(546, 132);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(112, 122);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            // 
+=======
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(666, 319);
+            this.button3.Location = new System.Drawing.Point(500, 259);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(259, 42);
+            this.button3.Size = new System.Drawing.Size(194, 34);
             this.button3.TabIndex = 11;
             this.button3.Text = "Quản lý nhập hàng";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+<<<<<<< HEAD
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(74, 317);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(112, 122);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 14;
+            this.pictureBox5.TabStop = false;
+            // 
+=======
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.button4.Location = new System.Drawing.Point(27, 444);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+=======
             this.button4.Location = new System.Drawing.Point(968, 319);
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(259, 46);
+            this.button4.Size = new System.Drawing.Size(194, 37);
             this.button4.TabIndex = 13;
             this.button4.Text = "Quản lý nhà cung cấp";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+<<<<<<< HEAD
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(315, 317);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(112, 122);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 16;
+            this.pictureBox6.TabStop = false;
+            // 
+=======
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.button5.Location = new System.Drawing.Point(268, 444);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+=======
             this.button5.Location = new System.Drawing.Point(35, 565);
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(259, 46);
+            this.button5.Size = new System.Drawing.Size(194, 37);
             this.button5.TabIndex = 15;
             this.button5.Text = "Quản lý tài khoản nhân viên";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+<<<<<<< HEAD
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(546, 317);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(112, 122);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 18;
+            this.pictureBox7.TabStop = false;
+            // 
+=======
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.button6.Location = new System.Drawing.Point(500, 444);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+=======
             this.button6.Location = new System.Drawing.Point(657, 565);
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(259, 46);
+            this.button6.Size = new System.Drawing.Size(194, 37);
             this.button6.TabIndex = 17;
             this.button6.Text = "Chấm công";
             this.button6.UseVisualStyleBackColor = false;
@@ -255,14 +450,21 @@ namespace foodmanager.View
             this.btnNhanVien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnNhanVien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhanVien.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.btnNhanVien.Location = new System.Drawing.Point(27, 259);
+            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+=======
             this.btnNhanVien.Location = new System.Drawing.Point(350, 565);
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             this.btnNhanVien.Name = "btnNhanVien";
-            this.btnNhanVien.Size = new System.Drawing.Size(259, 42);
+            this.btnNhanVien.Size = new System.Drawing.Size(194, 34);
             this.btnNhanVien.TabIndex = 20;
             this.btnNhanVien.Text = "Quản lý nhân viên";
             this.btnNhanVien.UseVisualStyleBackColor = false;
             this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
             // 
+<<<<<<< HEAD
+=======
             // buttonBanHang
             // 
             this.buttonBanHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -400,14 +602,19 @@ namespace foodmanager.View
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(729, 574);
+=======
             this.ClientSize = new System.Drawing.Size(1279, 706);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.buttonBanHang);
+>>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
             this.Controls.Add(this.btnNhanVien);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.button6);
@@ -424,7 +631,7 @@ namespace foodmanager.View
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormMain";
             this.Text = "Trang chủ";
             this.Load += new System.EventHandler(this.FormMain_Load);
