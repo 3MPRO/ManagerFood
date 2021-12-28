@@ -20,13 +20,17 @@
     </xs:element>
   </xs:schema>
   <_x0027_ChiTietHoaDon_x0027_>
+    <Id>1</Id>
     <MaHang>TP001</MaHang>
+    <SoHoaDon>1</SoHoaDon>
     <DonGia>2220000</DonGia>
     <SoLuong>3</SoLuong>
   </_x0027_ChiTietHoaDon_x0027_>
   <_x0027_ChiTietHoaDon_x0027_>
-    <MaHang>TP001</MaHang>
-    <DonGia>2220000</DonGia>
+    <Id>2</Id>
+    <MaHang>TP003</MaHang>
+    <SoHoaDon>2</SoHoaDon>
+    <DonGia>117000</DonGia>
     <SoLuong>3</SoLuong>
   </_x0027_ChiTietHoaDon_x0027_>
   <_x0027_ChiTietHoaDon_x0027_>
