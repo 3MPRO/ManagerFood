@@ -66,3 +66,21 @@ D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe
 D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.pdb
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormTaiKhoanNV.resources
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormXacNhanDiLam.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe.config
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.pdb
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.AssemblyReference.cache
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.FormDangNhap.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.Properties.Resources.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormDoiMatKhau.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormHang.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormImport.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormMain.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormSupplier.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormTaiKhoanNV.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormXacNhanDiLam.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.NhanVien.resources
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.GenerateResource.cache
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CoreCompileInputs.cache
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.exe
+E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.pdb
