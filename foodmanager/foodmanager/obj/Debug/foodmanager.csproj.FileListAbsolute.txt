@@ -17,11 +17,6 @@ D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CoreComp
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.exe
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.pdb
 <<<<<<< HEAD
-D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe.config
-D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe
-D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.pdb
-D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormTaiKhoanNV.resources
-D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormXacNhanDiLam.resources
 E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe.config
 E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.exe
 E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\foodmanager.pdb
