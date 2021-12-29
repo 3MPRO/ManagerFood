@@ -59,6 +59,8 @@ namespace foodmanager.View
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.PictureBox4 = new System.Windows.Forms.PictureBox();
+            this.thốngKêToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thốngKêNhàCungCấpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
@@ -78,7 +80,8 @@ namespace foodmanager.View
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.đăngNhâpToolStripMenuItem,
-            this.chuyểnĐổiToolStripMenuItem});
+            this.chuyểnĐổiToolStripMenuItem,
+            this.thốngKêToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
@@ -147,7 +150,7 @@ namespace foodmanager.View
             this.từSQLXMLToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.từSQLXMLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.từSQLXMLToolStripMenuItem.Name = "từSQLXMLToolStripMenuItem";
-            this.từSQLXMLToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
+            this.từSQLXMLToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.từSQLXMLToolStripMenuItem.Text = "Từ SQL - XML";
             this.từSQLXMLToolStripMenuItem.Click += new System.EventHandler(this.từSQLXMLToolStripMenuItem_Click);
             // 
@@ -156,7 +159,7 @@ namespace foodmanager.View
             this.từXMLSQLToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.từXMLSQLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.từXMLSQLToolStripMenuItem.Name = "từXMLSQLToolStripMenuItem";
-            this.từXMLSQLToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
+            this.từXMLSQLToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.từXMLSQLToolStripMenuItem.Text = "Từ XML - SQL";
             this.từXMLSQLToolStripMenuItem.Click += new System.EventHandler(this.từXMLSQLToolStripMenuItem_Click);
             // 
@@ -213,7 +216,7 @@ namespace foodmanager.View
             // 
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
             this.PictureBox1.Location = new System.Drawing.Point(16, 11);
-            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox1.Name = "PictureBox1";
             this.PictureBox1.Size = new System.Drawing.Size(165, 118);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -277,7 +280,7 @@ namespace foodmanager.View
             this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(1052, 393);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(259, 46);
             this.button4.TabIndex = 13;
@@ -291,7 +294,7 @@ namespace foodmanager.View
             this.button5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(47, 695);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(259, 46);
             this.button5.TabIndex = 15;
@@ -305,7 +308,7 @@ namespace foodmanager.View
             this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(714, 695);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(259, 46);
             this.button6.TabIndex = 17;
@@ -319,7 +322,7 @@ namespace foodmanager.View
             this.btnNhanVien.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhanVien.ForeColor = System.Drawing.Color.White;
             this.btnNhanVien.Location = new System.Drawing.Point(365, 695);
-            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(4);
             this.btnNhanVien.Name = "btnNhanVien";
             this.btnNhanVien.Size = new System.Drawing.Size(259, 42);
             this.btnNhanVien.TabIndex = 20;
@@ -333,7 +336,7 @@ namespace foodmanager.View
             this.buttonBanHang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonBanHang.ForeColor = System.Drawing.Color.White;
             this.buttonBanHang.Location = new System.Drawing.Point(48, 393);
-            this.buttonBanHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonBanHang.Margin = new System.Windows.Forms.Padding(4);
             this.buttonBanHang.Name = "buttonBanHang";
             this.buttonBanHang.Size = new System.Drawing.Size(258, 46);
             this.buttonBanHang.TabIndex = 21;
@@ -345,7 +348,7 @@ namespace foodmanager.View
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(71, 201);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(209, 185);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -356,7 +359,7 @@ namespace foodmanager.View
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(739, 502);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(200, 185);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -367,7 +370,7 @@ namespace foodmanager.View
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(80, 502);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(200, 185);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -378,7 +381,7 @@ namespace foodmanager.View
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(1086, 201);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(200, 185);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -389,7 +392,7 @@ namespace foodmanager.View
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(739, 201);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(200, 185);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -400,7 +403,7 @@ namespace foodmanager.View
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(405, 201);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(200, 185);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -411,12 +414,27 @@ namespace foodmanager.View
             // 
             this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
             this.PictureBox4.Location = new System.Drawing.Point(393, 502);
-            this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox4.Name = "PictureBox4";
             this.PictureBox4.Size = new System.Drawing.Size(200, 185);
             this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox4.TabIndex = 8;
             this.PictureBox4.TabStop = false;
+            // 
+            // thốngKêToolStripMenuItem
+            // 
+            this.thốngKêToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thốngKêNhàCungCấpToolStripMenuItem});
+            this.thốngKêToolStripMenuItem.Name = "thốngKêToolStripMenuItem";
+            this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.thốngKêToolStripMenuItem.Text = "Thống kê";
+            // 
+            // thốngKêNhàCungCấpToolStripMenuItem
+            // 
+            this.thốngKêNhàCungCấpToolStripMenuItem.Name = "thốngKêNhàCungCấpToolStripMenuItem";
+            this.thốngKêNhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(252, 26);
+            this.thốngKêNhàCungCấpToolStripMenuItem.Text = "Thống kê Nhà Cung Cấp";
+            this.thốngKêNhàCungCấpToolStripMenuItem.Click += new System.EventHandler(this.thốngKêNhàCungCấpToolStripMenuItem_Click);
             // 
             // FormMain
             // 
@@ -496,5 +514,7 @@ namespace foodmanager.View
         internal System.Windows.Forms.Label label3;
         internal System.Windows.Forms.PictureBox pictureBox8;
         internal System.Windows.Forms.Button buttonBanHang;
+        private System.Windows.Forms.ToolStripMenuItem thốngKêToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thốngKêNhàCungCấpToolStripMenuItem;
     }
 }

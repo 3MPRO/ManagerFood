@@ -258,5 +258,11 @@ namespace foodmanager.View
             FormBanHang frm = new FormBanHang();
             frm.ShowDialog();
         }
+
+        private void thốngKêNhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormReport frm = new FormReport();
+            frm.ShowDialog();
+        }
     }
 }

@@ -17,7 +17,8 @@ namespace foodmanager.Model
     class FileXML
     {
         
-        string Conn = @"Data Source=DESKTOP-10H7M0N\SQLEXPRESS01; Initial Catalog = QuanLyThucPham; Integrated Security=true";
+        string Conn = @"Data Source=DESKTOP-U09VCD7; Initial Catalog = QuanLyThucPham; Integrated Security=true";
+        /*string Conn = @"Data Source=DESKTOP-10H7M0N\SQLEXPRESS01; Initial Catalog = QuanLyThucPham; Integrated Security=true";*/
         
         public DataTable HienThi(string file)
         {
