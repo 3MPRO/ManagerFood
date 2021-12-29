@@ -31,9 +31,15 @@
     <TongTien>351000</TongTien>
   </_x0027_HoaDon_x0027_>
   <_x0027_HoaDon_x0027_>
+<<<<<<< HEAD
     <SoHoaDon>3</SoHoaDon>
     <MaNhanVien>NV001</MaNhanVien>
     <NgayLap>12/29/2021 12:00:00 AM</NgayLap>
     <TongTien>570000</TongTien>
+=======
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>12/28/2021 12:00:00 AM</NgayLap>
+    <TongTien>234000</TongTien>
+>>>>>>> a0445058117a9ee16cb1ae27893a26a6dfecbd7f
   </_x0027_HoaDon_x0027_>
 </NewDataSet>
