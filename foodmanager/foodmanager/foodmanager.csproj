@@ -57,7 +57,9 @@
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -89,6 +91,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>QuanLyThucPhamDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyThucPhamDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyThucPhamDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="View\FormBanHang.cs">
@@ -129,11 +136,29 @@
     <Compile Include="View\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\FormReport.cs">
+    <Compile Include="View\FormReportHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\FormReport.Designer.cs">
-      <DependentUpon>FormReport.cs</DependentUpon>
+    <Compile Include="View\FormReportHang.Designer.cs">
+      <DependentUpon>FormReportHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormReportHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormReportHoaDon.Designer.cs">
+      <DependentUpon>FormReportHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormReportNCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormReportNCC.Designer.cs">
+      <DependentUpon>FormReportNCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormReportNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormReportNV.Designer.cs">
+      <DependentUpon>FormReportNV.cs</DependentUpon>
     </Compile>
     <Compile Include="View\FormSupplier.cs">
       <SubType>Form</SubType>
@@ -166,6 +191,9 @@
       <DependentUpon>NhanVien.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
     <EmbeddedResource Include="View\FormBanHang.resx">
       <DependentUpon>FormBanHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,8 +217,17 @@
     <EmbeddedResource Include="View\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\FormReport.resx">
-      <DependentUpon>FormReport.cs</DependentUpon>
+    <EmbeddedResource Include="View\FormReportHang.resx">
+      <DependentUpon>FormReportHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormReportHoaDon.resx">
+      <DependentUpon>FormReportHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormReportNCC.resx">
+      <DependentUpon>FormReportNCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormReportNV.resx">
+      <DependentUpon>FormReportNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FormSupplier.resx">
       <DependentUpon>FormSupplier.cs</DependentUpon>
@@ -232,6 +269,17 @@
     </None>
     <None Include="QuanLyThucPhamDataSet.xss">
       <DependentUpon>QuanLyThucPhamDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyThucPhamDataSet1.xsc">
+      <DependentUpon>QuanLyThucPhamDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyThucPhamDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyThucPhamDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyThucPhamDataSet1.xss">
+      <DependentUpon>QuanLyThucPhamDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Resource\iconfinder_Undo_278852.png" />
   </ItemGroup>

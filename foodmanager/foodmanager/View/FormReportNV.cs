@@ -16,18 +16,19 @@ using System.Data.SqlClient;
 
 namespace foodmanager.View
 {
-    public partial class FormReport : Form
+    public partial class FormReportNV : Form
     {
         FileXML fl = new FileXML();
-        public FormReport()
+        public FormReportNV()
         {
             InitializeComponent();
         }
-        public DataTable getAlLNhaCungCap()
+
+        public DataTable getAlLNhanVien()
         {
             DataTable dataTable = new DataTable();
-            string query = "select * from NhaCungCap";
-            using(SqlConnection sqlConnection = GetSqlConnection())
+            string query = "select * from NhanVien";
+            using (SqlConnection sqlConnection = GetSqlConnection())
             {
                 sqlConnection.Open();
                 SqlDataAdapter dataAdapter = new SqlDataAdapter(query, sqlConnection);
@@ -43,15 +44,15 @@ namespace foodmanager.View
             return new SqlConnection(Conn);
         }
 
-        private void FormReport_Load(object sender, EventArgs e)
+        private void FormReportNV_Load(object sender, EventArgs e)
         {
             try
             {
 
-                reportViewer1.LocalReport.ReportEmbeddedResource = "foodmanager.Report1.rdlc";
+                reportViewer1.LocalReport.ReportEmbeddedResource = "foodmanager.Report2.rdlc";
                 ReportDataSource reportDataSource = new ReportDataSource();
-                reportDataSource.Name = "DataSetNCC";
-                reportDataSource.Value = getAlLNhaCungCap();
+                reportDataSource.Name = "DataSetNV";
+                reportDataSource.Value = getAlLNhanVien();
 
                 reportViewer1.LocalReport.DataSources.Add(reportDataSource);
                 reportViewer1.RefreshReport();
@@ -62,11 +63,6 @@ namespace foodmanager.View
             }
 
             this.reportViewer1.RefreshReport();
-        }
-
-        private void reportViewer1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

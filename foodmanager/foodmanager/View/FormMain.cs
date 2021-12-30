@@ -261,7 +261,25 @@ namespace foodmanager.View
 
         private void thốngKêNhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormReport frm = new FormReport();
+            FormReportNCC frm = new FormReportNCC();
+            frm.ShowDialog();
+        }
+
+        private void thoonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormReportNV frm = new FormReportNV();
+            frm.ShowDialog();
+        }
+
+        private void thốngKêThựcPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormReportHang frm = new FormReportHang();
+            frm.ShowDialog();
+        }
+
+        private void thốngKêDoanhThuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormReportHoaDon frm = new FormReportHoaDon();
             frm.ShowDialog();
         }
     }

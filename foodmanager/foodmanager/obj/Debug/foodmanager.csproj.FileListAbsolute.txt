@@ -39,7 +39,6 @@ E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormThongKe.resources
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormBanHang.resources
 >>>>>>> aea9900dd28ddf2e8dbf29c6e17fc277a5045e20
-<<<<<<< HEAD
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormReport.resources
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\RdlCompile.cache
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\RdlCompile.compiled
@@ -124,7 +123,10 @@ D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\ru\Microsoft.ReportViewer.W
 D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 D:\XML\ManagerFood\foodmanager\foodmanager\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CopyComplete
-=======
 E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormBanHang.resources
 E:\KỲ 121\CÔNG NGHỆ XML\Cuối kỳ\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormThongKe.resources
 >>>>>>> a0445058117a9ee16cb1ae27893a26a6dfecbd7f
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormReportNCC.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormReportNV.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormReportHang.resources
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormReportHoaDon.resources

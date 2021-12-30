@@ -1,6 +1,6 @@
 ﻿namespace foodmanager.View
 {
-    partial class FormReport
+    partial class FormReportNCC
     {
         /// <summary>
         /// Required designer variable.
@@ -30,22 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.NhanVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.quanLyThucPhamDataSet = new foodmanager.QuanLyThucPhamDataSet();
             this.nhaCungCapBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.nhaCungCapBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nhaCungCapTableAdapter = new foodmanager.QuanLyThucPhamDataSetTableAdapters.NhaCungCapTableAdapter();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            ((System.ComponentModel.ISupportInitialize)(this.NhanVienBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.quanLyThucPhamDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhaCungCapBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhaCungCapBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // NhanVienBindingSource
-            // 
-            this.NhanVienBindingSource.DataMember = "NhanVien";
-            this.NhanVienBindingSource.DataSource = this.quanLyThucPhamDataSet;
             // 
             // quanLyThucPhamDataSet
             // 
@@ -69,8 +62,8 @@
             // reportViewer1
             // 
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.NhanVienBindingSource;
+            reportDataSource1.Name = "DataSetNCC";
+            reportDataSource1.Value = this.nhaCungCapBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "foodmanager.Report1.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
@@ -79,16 +72,15 @@
             this.reportViewer1.Size = new System.Drawing.Size(800, 594);
             this.reportViewer1.TabIndex = 0;
             // 
-            // FormReport
+            // FormReportNCC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 594);
             this.Controls.Add(this.reportViewer1);
-            this.Name = "FormReport";
+            this.Name = "FormReportNCC";
             this.Text = "FormReport";
             this.Load += new System.EventHandler(this.FormReport_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.NhanVienBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.quanLyThucPhamDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhaCungCapBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhaCungCapBindingSource)).EndInit();
@@ -101,7 +93,6 @@
         private System.Windows.Forms.BindingSource nhaCungCapBindingSource;
         private QuanLyThucPhamDataSetTableAdapters.NhaCungCapTableAdapter nhaCungCapTableAdapter;
         private System.Windows.Forms.BindingSource nhaCungCapBindingSource1;
-        private System.Windows.Forms.BindingSource NhanVienBindingSource;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }

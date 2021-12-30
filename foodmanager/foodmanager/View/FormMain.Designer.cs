@@ -38,6 +38,10 @@ namespace foodmanager.View
             this.chuyểnĐổiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.từSQLXMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.từXMLSQLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thốngKêToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thốngKêNhàCungCấpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thoonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thốngKêThựcPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Label1 = new System.Windows.Forms.Label();
             this.Panel1 = new System.Windows.Forms.Panel();
             this.lblHoTen = new System.Windows.Forms.Label();
@@ -59,8 +63,7 @@ namespace foodmanager.View
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.PictureBox4 = new System.Windows.Forms.PictureBox();
-            this.thốngKêToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thốngKêNhàCungCấpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thốngKêDoanhThuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
@@ -96,7 +99,7 @@ namespace foodmanager.View
             this.đổiMậtKhẩuToolStripMenuItem,
             this.đăngXuấtToolStripMenuItem});
             this.đăngNhâpToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.đăngNhâpToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.đăngNhâpToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
             this.đăngNhâpToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("đăngNhâpToolStripMenuItem.Image")));
             this.đăngNhâpToolStripMenuItem.Name = "đăngNhâpToolStripMenuItem";
             this.đăngNhâpToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
@@ -139,7 +142,7 @@ namespace foodmanager.View
             this.từSQLXMLToolStripMenuItem,
             this.từXMLSQLToolStripMenuItem});
             this.chuyểnĐổiToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chuyểnĐổiToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.chuyểnĐổiToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
             this.chuyểnĐổiToolStripMenuItem.Name = "chuyểnĐổiToolStripMenuItem";
             this.chuyểnĐổiToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
             this.chuyểnĐổiToolStripMenuItem.Text = "Chuyển đổi dữ liệu";
@@ -150,7 +153,7 @@ namespace foodmanager.View
             this.từSQLXMLToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.từSQLXMLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.từSQLXMLToolStripMenuItem.Name = "từSQLXMLToolStripMenuItem";
-            this.từSQLXMLToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.từSQLXMLToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
             this.từSQLXMLToolStripMenuItem.Text = "Từ SQL - XML";
             this.từSQLXMLToolStripMenuItem.Click += new System.EventHandler(this.từSQLXMLToolStripMenuItem_Click);
             // 
@@ -159,9 +162,47 @@ namespace foodmanager.View
             this.từXMLSQLToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.từXMLSQLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.từXMLSQLToolStripMenuItem.Name = "từXMLSQLToolStripMenuItem";
-            this.từXMLSQLToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.từXMLSQLToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
             this.từXMLSQLToolStripMenuItem.Text = "Từ XML - SQL";
             this.từXMLSQLToolStripMenuItem.Click += new System.EventHandler(this.từXMLSQLToolStripMenuItem_Click);
+            // 
+            // thốngKêToolStripMenuItem
+            // 
+            this.thốngKêToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thốngKêNhàCungCấpToolStripMenuItem,
+            this.thoonToolStripMenuItem,
+            this.thốngKêThựcPhẩmToolStripMenuItem,
+            this.thốngKêDoanhThuToolStripMenuItem});
+            this.thốngKêToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thốngKêToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
+            this.thốngKêToolStripMenuItem.Name = "thốngKêToolStripMenuItem";
+            this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
+            this.thốngKêToolStripMenuItem.Text = "Thống kê";
+            // 
+            // thốngKêNhàCungCấpToolStripMenuItem
+            // 
+            this.thốngKêNhàCungCấpToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thốngKêNhàCungCấpToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.thốngKêNhàCungCấpToolStripMenuItem.Name = "thốngKêNhàCungCấpToolStripMenuItem";
+            this.thốngKêNhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.thốngKêNhàCungCấpToolStripMenuItem.Text = "Thống kê Nhà Cung Cấp";
+            this.thốngKêNhàCungCấpToolStripMenuItem.Click += new System.EventHandler(this.thốngKêNhàCungCấpToolStripMenuItem_Click);
+            // 
+            // thoonToolStripMenuItem
+            // 
+            this.thoonToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.thoonToolStripMenuItem.Name = "thoonToolStripMenuItem";
+            this.thoonToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.thoonToolStripMenuItem.Text = "Thống kê nhân viên";
+            this.thoonToolStripMenuItem.Click += new System.EventHandler(this.thoonToolStripMenuItem_Click);
+            // 
+            // thốngKêThựcPhẩmToolStripMenuItem
+            // 
+            this.thốngKêThựcPhẩmToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.thốngKêThựcPhẩmToolStripMenuItem.Name = "thốngKêThựcPhẩmToolStripMenuItem";
+            this.thốngKêThựcPhẩmToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.thốngKêThựcPhẩmToolStripMenuItem.Text = "Thống kê thực phẩm";
+            this.thốngKêThựcPhẩmToolStripMenuItem.Click += new System.EventHandler(this.thốngKêThựcPhẩmToolStripMenuItem_Click);
             // 
             // Label1
             // 
@@ -421,20 +462,13 @@ namespace foodmanager.View
             this.PictureBox4.TabIndex = 8;
             this.PictureBox4.TabStop = false;
             // 
-            // thốngKêToolStripMenuItem
+            // thốngKêDoanhThuToolStripMenuItem
             // 
-            this.thốngKêToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thốngKêNhàCungCấpToolStripMenuItem});
-            this.thốngKêToolStripMenuItem.Name = "thốngKêToolStripMenuItem";
-            this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
-            this.thốngKêToolStripMenuItem.Text = "Thống kê";
-            // 
-            // thốngKêNhàCungCấpToolStripMenuItem
-            // 
-            this.thốngKêNhàCungCấpToolStripMenuItem.Name = "thốngKêNhàCungCấpToolStripMenuItem";
-            this.thốngKêNhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(252, 26);
-            this.thốngKêNhàCungCấpToolStripMenuItem.Text = "Thống kê Nhà Cung Cấp";
-            this.thốngKêNhàCungCấpToolStripMenuItem.Click += new System.EventHandler(this.thốngKêNhàCungCấpToolStripMenuItem_Click);
+            this.thốngKêDoanhThuToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.thốngKêDoanhThuToolStripMenuItem.Name = "thốngKêDoanhThuToolStripMenuItem";
+            this.thốngKêDoanhThuToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.thốngKêDoanhThuToolStripMenuItem.Text = "Thống kê doanh thu";
+            this.thốngKêDoanhThuToolStripMenuItem.Click += new System.EventHandler(this.thốngKêDoanhThuToolStripMenuItem_Click);
             // 
             // FormMain
             // 
@@ -516,5 +550,8 @@ namespace foodmanager.View
         internal System.Windows.Forms.Button buttonBanHang;
         private System.Windows.Forms.ToolStripMenuItem thốngKêToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thốngKêNhàCungCấpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thoonToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thốngKêThựcPhẩmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thốngKêDoanhThuToolStripMenuItem;
     }
 }

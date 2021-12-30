@@ -33,24 +33,4 @@
     <DonGia>117000</DonGia>
     <SoLuong>3</SoLuong>
   </_x0027_ChiTietHoaDon_x0027_>
-  <_x0027_ChiTietHoaDon_x0027_>
-<<<<<<< HEAD
-    <Id>3</Id>
-    <MaHang>TP004</MaHang>
-    <SoHoaDon>3</SoHoaDon>
-    <DonGia>190000</DonGia>
-    <SoLuong>3</SoLuong>
-=======
-    <MaHang>TP002</MaHang>
-    <DonGia>
-    </DonGia>
-    <SoLuong>
-    </SoLuong>
-  </_x0027_ChiTietHoaDon_x0027_>
-  <_x0027_ChiTietHoaDon_x0027_>
-    <MaHang>TP003</MaHang>
-    <DonGia>117000</DonGia>
-    <SoLuong>2</SoLuong>
->>>>>>> a0445058117a9ee16cb1ae27893a26a6dfecbd7f
-  </_x0027_ChiTietHoaDon_x0027_>
 </NewDataSet>
