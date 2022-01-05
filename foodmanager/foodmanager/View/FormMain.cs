@@ -38,7 +38,18 @@ namespace foodmanager.View
             }
             else
             {
-                /*lblQuyen.Text = "Nhân Viên";*/
+                button3.Visible = false;
+                pictureBox3.Visible = false;
+                button4.Visible = false;
+                pictureBox5.Visible = false;
+                button5.Visible = false;
+                pictureBox6.Visible = false;
+                btnNhanVien.Visible = false;
+                PictureBox4.Visible = false;
+                button6.Visible = false;
+                pictureBox7.Visible = false;
+                thốngKêToolStripMenuItem.Visible = false;
+                chuyểnĐổiToolStripMenuItem.Visible = false;
             }
             if (e) ThongTinDangNhap();
         }
@@ -77,30 +88,7 @@ namespace foodmanager.View
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            /*IsMdiContainer = true;
-            QuyenDangNhap(false);
-            if (!CheckForm("FormDangNhap"))
-            {
-                FormDangNhap frm = new FormDangNhap();
-                frm.MdiParent = this;
-                frm.Show();
-            }
-            else
-            {
-                ActivateForm("FormDangNhap");
-            }*/
-
-            /*IsMdiContainer = true;
-            if (!CheckForm("FormHang"))
-            {
-                FormHang frm = new FormHang();
-                frm.MdiParent = this;
-                frm.Show();
-            }
-            else
-            {
-                ActivateForm("FormHang");
-            }*/
+            
         }
 
         private void đăngNhậpToolStripMenuItem_Click(object sender, EventArgs e)
