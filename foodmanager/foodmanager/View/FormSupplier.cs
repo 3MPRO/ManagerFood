@@ -71,14 +71,14 @@ namespace foodmanager.View
         private void btnDelete_Click_1(object sender, EventArgs e)
         {
             ncc.deleteSupplier(txtIdSupplier.Text);
-            MessageBox.Show("Ok");
+            MessageBox.Show("Xóa thành công");
             showSupplier();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             ncc.updateSuplier(txtIdSupplier.Text, txtNameSupp.Text, txtAddressSupp.Text, txtNumPhoneSupp.Text, txtEmailSupp.Text, txtDesSupp.Text);
-            MessageBox.Show("Ok");
+            MessageBox.Show("Sửa thành công");
             showSupplier();
         }
 
@@ -91,7 +91,7 @@ namespace foodmanager.View
             else
             {
                 ncc.addSupplier(txtIdSupplier.Text, txtNameSupp.Text, txtAddressSupp.Text, txtNumPhoneSupp.Text, txtEmailSupp.Text, txtDesSupp.Text);
-                MessageBox.Show("Ok");
+                MessageBox.Show("Thêm thành công");
                 showSupplier();
             }
         }

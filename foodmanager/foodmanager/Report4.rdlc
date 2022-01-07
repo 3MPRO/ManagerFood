@@ -495,7 +495,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -618,22 +617,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>TRƯỜNG ĐẠI HỌC </Value>
-                  <Style>
-                    <FontSize>16pt</FontSize>
-                    <FontWeight>Bold</FontWeight>
-                    <Color>SeaGreen</Color>
-                  </Style>
-                </TextRun>
-              </TextRuns>
-              <Style>
-                <TextAlign>Center</TextAlign>
-              </Style>
-            </Paragraph>
-            <Paragraph>
-              <TextRuns>
-                <TextRun>
-                  <Value>SƯ PHẠM KỸ THUẬT ĐÀ NẴNG</Value>
+                  <Value>SIÊU THỊ FRESH FOOD</Value>
                   <Style>
                     <FontSize>16pt</FontSize>
                     <FontWeight>Bold</FontWeight>

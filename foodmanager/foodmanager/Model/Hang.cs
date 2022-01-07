@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 using System.Data;
+using System.Windows.Forms;
 
 namespace foodmanager.Model
 {
@@ -57,6 +58,8 @@ namespace foodmanager.Model
         public void xoaH(string MaHang)
         {
             Fxml.Xoa("Hang.xml", "_x0027_Hang_x0027_", "MaHang", MaHang);
+
+            MessageBox.Show("Xóa thành công");
         }
 
         public DataTable LoadMaHang()

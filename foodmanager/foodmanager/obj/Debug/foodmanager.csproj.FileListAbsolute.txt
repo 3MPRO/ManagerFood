@@ -95,7 +95,6 @@ D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormReport
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormReportNV.resources
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormSupplier.resources
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormTaiKhoanNV.resources
-D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormThongKe.resources
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.FormXacNhanDiLam.resources
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.NhanVien.resources
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.GenerateResource.cache
@@ -105,3 +104,4 @@ D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CoreComp
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.csproj.CopyComplete
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.exe
 D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.pdb
+D:\XML\ManagerFood\foodmanager\foodmanager\obj\Debug\foodmanager.View.InPhieuNhap.resources

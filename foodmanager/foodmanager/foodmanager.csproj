@@ -172,17 +172,17 @@
     <Compile Include="View\FormTaiKhoanNV.Designer.cs">
       <DependentUpon>FormTaiKhoanNV.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\FormThongKe.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FormThongKe.Designer.cs">
-      <DependentUpon>FormThongKe.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\FormXacNhanDiLam.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\FormXacNhanDiLam.Designer.cs">
       <DependentUpon>FormXacNhanDiLam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\InPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\InPhieuNhap.Designer.cs">
+      <DependentUpon>InPhieuNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="View\NhanVien.cs">
       <SubType>Form</SubType>
@@ -194,6 +194,7 @@
     <EmbeddedResource Include="Report2.rdlc" />
     <EmbeddedResource Include="Report3.rdlc" />
     <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="Report5.rdlc" />
     <EmbeddedResource Include="View\FormBanHang.resx">
       <DependentUpon>FormBanHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -235,11 +236,11 @@
     <EmbeddedResource Include="View\FormTaiKhoanNV.resx">
       <DependentUpon>FormTaiKhoanNV.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\FormThongKe.resx">
-      <DependentUpon>FormThongKe.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\FormXacNhanDiLam.resx">
       <DependentUpon>FormXacNhanDiLam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\InPhieuNhap.resx">
+      <DependentUpon>InPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\NhanVien.resx">
       <DependentUpon>NhanVien.cs</DependentUpon>

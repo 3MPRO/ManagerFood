@@ -50,7 +50,7 @@ namespace foodmanager.View
                 else
                 {
                     dn.dangkiTaiKhoan(txtMaNhanVien.Text, txtMatKhau.Text, int.Parse(txtQuyen.Text));
-                    MessageBox.Show("Ok");
+                    MessageBox.Show("Thêm thành công");
                     hienthiTTTK();
                 }
 
@@ -60,7 +60,7 @@ namespace foodmanager.View
         private void btnXoa_Click(object sender, EventArgs e)
         {
             dn.xoaTK(txtMaNhanVien.Text);
-            MessageBox.Show("Ok");
+            MessageBox.Show("Xóa thành công");
             hienthiTTTK();
         }
 

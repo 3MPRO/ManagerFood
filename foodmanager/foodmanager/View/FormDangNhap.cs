@@ -34,7 +34,7 @@ namespace foodmanager
 
                 if (dn.kiemtraTTDN("TaiKhoan.xml", txtTaiKhoan.Text, txtMatKhau.Text) == true)
                 {
-                  //  MessageBox.Show("Đăng nhập thành công");
+                    MessageBox.Show("Đăng nhập thành công");
                     dn.layMaQuyen();
                     FormMain.tenDNMain = txtTaiKhoan.Text;
                     FormMain frm = new FormMain();

@@ -61,7 +61,7 @@ namespace foodmanager.View
                 {
                     DateTime dt = DateTime.Parse(dptNgaylapPhieu.Text);
                     pn.themPN(txtMaPhieu.Text, txtMaHang.Text, txtMaNhanVien.Text, txtSoLuong.Text, dt.ToString());
-                    MessageBox.Show("Ok");
+                    MessageBox.Show("Thêm thành công");
                     hienthiPhieuNhap();
                 }
             }
@@ -75,6 +75,12 @@ namespace foodmanager.View
             txtMaNhanVien.Text = dgvPhieuNhapHang.Rows[d].Cells[2].Value.ToString();
             txtSoLuong.Text = dgvPhieuNhapHang.Rows[d].Cells[3].Value.ToString();
             dptNgaylapPhieu.Text = dgvPhieuNhapHang.Rows[d].Cells[4].Value.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            InPhieuNhap frm = new InPhieuNhap();
+            frm.ShowDialog();
         }
     }
 }

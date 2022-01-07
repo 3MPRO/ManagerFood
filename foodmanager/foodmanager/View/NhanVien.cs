@@ -42,7 +42,6 @@ namespace foodmanager.View
         private void dgvNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             int d = dgvNhanVien.CurrentRow.Index;
-            //MessageBox.Show(d.ToString());
             txtMaNV.Text = dgvNhanVien.Rows[d].Cells[0].Value.ToString();
             txtHoTen.Text = dgvNhanVien.Rows[d].Cells[1].Value.ToString();
             dateNgaySinh.Text = dgvNhanVien.Rows[d].Cells[2].Value.ToString();
@@ -106,7 +105,7 @@ namespace foodmanager.View
                 DateTime dt = DateTime.Parse(dateNgaySinh.Text);
                 nv.themNV(txtMaNV.Text, txtHoTen.Text, dt.ToString(), txtDiaChi.Text,
                     txtSdt.Text, txtEmail.Text);
-                MessageBox.Show("Ok");
+                MessageBox.Show("Thêm thành công");
                 MessageBox.Show(dateNgaySinh.Text);
                 hienThiNhanVien();
             }
@@ -115,7 +114,7 @@ namespace foodmanager.View
         private void btnXoa_Click(object sender, EventArgs e)
         {
             nv.xoaNV(txtMaNV.Text);
-            MessageBox.Show("Ok");
+            MessageBox.Show("Xóa thành công");
             xoaDuLieu();
             hienThiNhanVien();
         }

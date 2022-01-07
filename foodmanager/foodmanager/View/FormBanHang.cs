@@ -31,7 +31,7 @@ namespace foodmanager.View
         {
             DataTable dt = new DataTable();
             /*dt = Fxml.HienThi("HoaDon.xml");*/
-            dt = Fxml.HienThi("ChiTietHoaDon.xml");
+            dt = Fxml.HienThi("GioHang.xml");
             dtgHoaDon.DataSource = dt;
         }
 
@@ -57,10 +57,13 @@ namespace foodmanager.View
 
         private void dtgHoaDon_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            /*int d = dtgHoaDon.CurrentRow.Index;
-            txtMaHang.SelectedValue = dtgHoaDon.Rows[d].Cells[1].Value.ToString();
-            txtDonGia.Text = dtgHoaDon.Rows[d].Cells[3].Value.ToString();
-            txtSoLuong.Text = dtgHoaDon.Rows[d].Cells[4].Value.ToString();*/
+            int d = dtgHoaDon.CurrentRow.Index;
+            txtMaHang.Text = dtgHoaDon.Rows[d].Cells[1].Value.ToString();
+            txtDonGia.Text = dtgHoaDon.Rows[d].Cells[2].Value.ToString();
+            txtSoLuong.Text = dtgHoaDon.Rows[d].Cells[3].Value.ToString();
+            txtMaNhanVien.Text = dtgHoaDon.Rows[d].Cells[4].Value.ToString();
+            dateTimePicker1.Text = dtgHoaDon.Rows[d].Cells[5].Value.ToString();
+            txtTongTien.Text = dtgHoaDon.Rows[d].Cells[6].Value.ToString();
         }
 
         private void btnThem_Click(object sender, EventArgs e)
@@ -68,14 +71,16 @@ namespace foodmanager.View
 
                 DateTime dt = DateTime.Parse(dateTimePicker1.Text);
                 HD.themHD(txtMaNhanVien.Text, dt.ToString(), txtTongTien.Text,txtMaHang.Text,txtDonGia.Text,txtSoLuong.Text);
-                MessageBox.Show("Ok");
+                MessageBox.Show("Thêm thành công");
                 hienthiHoaDon();
            
         }
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-
+            HD.thanhtoan();
+            MessageBox.Show("Thanh toán thành công");
+            hienthiHoaDon();
         }
 
         private void txtSoLuong_TextChanged(object sender, EventArgs e)
@@ -97,6 +102,13 @@ namespace foodmanager.View
                     txtSoLuong.Text = "";
                 }
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            HD.xoaH(txtMaHang.Text);
+            MessageBox.Show("Xóa thành công");
+            hienthiHoaDon();
         }
     }
 }

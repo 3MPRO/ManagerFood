@@ -37,7 +37,7 @@ namespace foodmanager.View
             else
             {
                 H.themH(txtMaHang.Text, txtTenHang.Text, txtDonViTinh.Text, txtDonGia.Text, txtSoLuong.Text, cbbMaNCC.SelectedValue.ToString());
-                MessageBox.Show("Ok");
+                MessageBox.Show("Thanh hàng thành công");
                 hienthiHang();
             }
         }
@@ -45,14 +45,14 @@ namespace foodmanager.View
         private void btnSua_Click(object sender, EventArgs e)
         {
             H.suaH(txtMaHang.Text, txtTenHang.Text, txtDonViTinh.Text, txtDonGia.Text, txtSoLuong.Text, cbbMaNCC.SelectedValue.ToString());
-            MessageBox.Show("Ok");
+            MessageBox.Show("Sửa thành công");
             hienthiHang();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
             H.xoaH(txtMaHang.Text);
-            MessageBox.Show("Ok");
+            MessageBox.Show("Xóa thành công");
             hienthiHang();
         }
 

@@ -20,14 +20,68 @@
   </xs:schema>
   <_x0027_HoaDon_x0027_>
     <SoHoaDon>1</SoHoaDon>
-    <MaNhanVien>NV001</MaNhanVien>
-    <NgayLap>12/28/2021 12:00:00 AM</NgayLap>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
     <TongTien>6660000</TongTien>
   </_x0027_HoaDon_x0027_>
   <_x0027_HoaDon_x0027_>
     <SoHoaDon>2</SoHoaDon>
-    <MaNhanVien>NV002</MaNhanVien>
-    <NgayLap>12/28/2021 12:00:00 AM</NgayLap>
-    <TongTien>351000</TongTien>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>6660000</TongTien>
+  </_x0027_HoaDon_x0027_>
+  <_x0027_HoaDon_x0027_>
+    <SoHoaDon>3</SoHoaDon>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>6660000</TongTien>
+  </_x0027_HoaDon_x0027_>
+  <_x0027_HoaDon_x0027_>
+    <SoHoaDon>4</SoHoaDon>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>6660000</TongTien>
+  </_x0027_HoaDon_x0027_>
+  <_x0027_HoaDon_x0027_>
+    <SoHoaDon>5</SoHoaDon>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>6660000</TongTien>
+  </_x0027_HoaDon_x0027_>
+  <_x0027_HoaDon_x0027_>
+    <SoHoaDon>6</SoHoaDon>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>6660000</TongTien>
+  </_x0027_HoaDon_x0027_>
+  <_x0027_HoaDon_x0027_>
+    <SoHoaDon>7</SoHoaDon>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>6660000</TongTien>
+  </_x0027_HoaDon_x0027_>
+  <_x0027_HoaDon_x0027_>
+    <SoHoaDon>8</SoHoaDon>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>-1414894592</TongTien>
+  </_x0027_HoaDon_x0027_>
+  <_x0027_HoaDon_x0027_>
+    <SoHoaDon>9</SoHoaDon>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>6660000</TongTien>
+  </_x0027_HoaDon_x0027_>
+  <_x0027_HoaDon_x0027_>
+    <SoHoaDon>10</SoHoaDon>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>6660000</TongTien>
+  </_x0027_HoaDon_x0027_>
+  <_x0027_HoaDon_x0027_>
+    <SoHoaDon>11</SoHoaDon>
+    <MaNhanVien>admin</MaNhanVien>
+    <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
+    <TongTien>6660000</TongTien>
   </_x0027_HoaDon_x0027_>
 </NewDataSet>

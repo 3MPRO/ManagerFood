@@ -21,14 +21,13 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
-  <_x0027_GioHang_x0027_ />
   <_x0027_GioHang_x0027_>
-    <Id>2</Id>
+    <Id>1</Id>
     <MaHang>TP001</MaHang>
     <DonGia>2220000</DonGia>
-    <SoLuong>3232</SoLuong>
+    <SoLuong>4</SoLuong>
     <MaNhanVien>admin</MaNhanVien>
     <NgayLap>1/7/2022 12:00:00 AM</NgayLap>
-    <TongTien>-1414894592</TongTien>
+    <TongTien>8880000</TongTien>
   </_x0027_GioHang_x0027_>
 </NewDataSet>
