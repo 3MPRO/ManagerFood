@@ -96,19 +96,27 @@ namespace foodmanager.View
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (nv.kiemtra(txtMaNV.Text) == true)
+            if (txtDiaChi.Text.Equals("") || txtEmail.Text.Equals("") || txtHoTen.Text.Equals("") || txtMaNV.Text.Equals("") || txtSdt.Text.Equals(""))
             {
-                MessageBox.Show("Mã Nhân viên đã tồn tại");
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
             }
             else
             {
-                DateTime dt = DateTime.Parse(dateNgaySinh.Text);
-                nv.themNV(txtMaNV.Text, txtHoTen.Text, dt.ToString(), txtDiaChi.Text,
-                    txtSdt.Text, txtEmail.Text);
-                MessageBox.Show("Thêm thành công");
-                MessageBox.Show(dateNgaySinh.Text);
-                hienThiNhanVien();
+                if (nv.kiemtra(txtMaNV.Text) == true)
+                {
+                    MessageBox.Show("Mã Nhân viên đã tồn tại");
+                }
+                else
+                {
+                    DateTime dt = DateTime.Parse(dateNgaySinh.Text);
+                    nv.themNV(txtMaNV.Text, txtHoTen.Text, dt.ToString(), txtDiaChi.Text,
+                        txtSdt.Text, txtEmail.Text);
+                    MessageBox.Show("Thêm thành công");
+                    MessageBox.Show(dateNgaySinh.Text);
+                    hienThiNhanVien();
+                }
             }
+                
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -141,11 +149,19 @@ namespace foodmanager.View
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            LoadDuLieu();
-            DateTime dt = DateTime.Parse(dateNgaySinh.Text); 
-            nv.suaNV(MaNhanVien, TenNhanVien, dt.ToString(), DiaChi, SDT, Email);
-            MessageBox.Show("Ok");
-            hienThiNhanVien();
+            if (txtDiaChi.Text.Equals("") || txtEmail.Text.Equals("") || txtHoTen.Text.Equals("") || txtMaNV.Text.Equals("") || txtSdt.Text.Equals(""))
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
+            }
+            else
+            {
+                LoadDuLieu();
+                DateTime dt = DateTime.Parse(dateNgaySinh.Text);
+                nv.suaNV(MaNhanVien, TenNhanVien, dt.ToString(), DiaChi, SDT, Email);
+                MessageBox.Show("Sửa thành công");
+                hienThiNhanVien();
+            }
+                
         }
     }
 }

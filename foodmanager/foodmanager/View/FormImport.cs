@@ -46,25 +46,32 @@ namespace foodmanager.View
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-
-            if (pn.kiemtraMaPhieu(txtMaPhieu.Text) == true)
+            if (txtMaHang.Text.Equals("") || txtMaNhanVien.Text.Equals("") || txtMaPhieu.Text.Equals("") || txtSoLuong.Text.Equals(""))
             {
-                MessageBox.Show("Mã phiếu đã tồn tại");
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
             }
             else
             {
-                if (nv.kiemtra(txtMaNhanVien.Text.ToString().Trim()) == false)
+                if (pn.kiemtraMaPhieu(txtMaPhieu.Text) == true)
                 {
-                    MessageBox.Show("Ko có mã nhân viên này, kiểm tra lại");
+                    MessageBox.Show("Mã phiếu đã tồn tại");
                 }
                 else
                 {
-                    DateTime dt = DateTime.Parse(dptNgaylapPhieu.Text);
-                    pn.themPN(txtMaPhieu.Text, txtMaHang.Text, txtMaNhanVien.Text, txtSoLuong.Text, dt.ToString());
-                    MessageBox.Show("Thêm thành công");
-                    hienthiPhieuNhap();
+                    if (nv.kiemtra(txtMaNhanVien.Text.ToString().Trim()) == false)
+                    {
+                        MessageBox.Show("Ko có mã nhân viên này, kiểm tra lại");
+                    }
+                    else
+                    {
+                        DateTime dt = DateTime.Parse(dptNgaylapPhieu.Text);
+                        pn.themPN(txtMaPhieu.Text, txtMaHang.Text, txtMaNhanVien.Text, txtSoLuong.Text, dt.ToString());
+                        MessageBox.Show("Thêm thành công");
+                        hienthiPhieuNhap();
+                    }
                 }
             }
+                
         }
 
         private void dgvPhieuNhapHang_CellContentClick(object sender, DataGridViewCellEventArgs e)

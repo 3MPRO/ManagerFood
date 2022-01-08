@@ -19,10 +19,28 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
-	<_x0027_ChamCong_x0027_>
+  <_x0027_ChamCong_x0027_>
     <MaNhanVien>NV001</MaNhanVien>
     <Ngay>26</Ngay>
     <Thang>12</Thang>
     <Nam>2021</Nam>
   </_x0027_ChamCong_x0027_>
+  <ChamCong>
+    <MaNhanVien>NV001</MaNhanVien>
+    <Ngay>7</Ngay>
+    <Thang>1</Thang>
+    <Nam>2022</Nam>
+  </ChamCong>
+  <ChamCong>
+    <MaNhanVien>NV001</MaNhanVien>
+    <Ngay>7</Ngay>
+    <Thang>1</Thang>
+    <Nam>2022</Nam>
+  </ChamCong>
+  <ChamCong>
+    <MaNhanVien>NV001</MaNhanVien>
+    <Ngay>7</Ngay>
+    <Thang>1</Thang>
+    <Nam>2022</Nam>
+  </ChamCong>
 </NewDataSet>

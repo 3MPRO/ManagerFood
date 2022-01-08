@@ -173,4 +173,25 @@
     <DonGia>2220000</DonGia>
     <SoLuong>3</SoLuong>
   </_x0027_ChiTietHoaDon_x0027_>
+  <_x0027_ChiTietHoaDon_x0027_>
+    <Id>23</Id>
+    <MaHang>TP001</MaHang>
+    <SoHoaDon>12</SoHoaDon>
+    <DonGia>2220000</DonGia>
+    <SoLuong>3</SoLuong>
+  </_x0027_ChiTietHoaDon_x0027_>
+  <_x0027_ChiTietHoaDon_x0027_>
+    <Id>24</Id>
+    <MaHang>TP002</MaHang>
+    <SoHoaDon>12</SoHoaDon>
+    <DonGia>17000</DonGia>
+    <SoLuong>444</SoLuong>
+  </_x0027_ChiTietHoaDon_x0027_>
+  <_x0027_ChiTietHoaDon_x0027_>
+    <Id>25</Id>
+    <MaHang>TP003</MaHang>
+    <SoHoaDon>12</SoHoaDon>
+    <DonGia>117000</DonGia>
+    <SoLuong>21</SoLuong>
+  </_x0027_ChiTietHoaDon_x0027_>
 </NewDataSet>

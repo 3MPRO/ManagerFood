@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
+using System.Xml.Linq;
 
 namespace foodmanager.View
 {
@@ -68,19 +70,37 @@ namespace foodmanager.View
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-
+            if(txtMaHang.Text.Equals("")|| txtDonGia.Text.Equals("") || txtSoLuong.Text.Equals("") || txtMaNhanVien.Text.Equals("") || dateTimePicker1.Text.Equals("") || txtTongTien.Text.Equals(""))
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
+            }
+            else
+            {
                 DateTime dt = DateTime.Parse(dateTimePicker1.Text);
-                HD.themHD(txtMaNhanVien.Text, dt.ToString(), txtTongTien.Text,txtMaHang.Text,txtDonGia.Text,txtSoLuong.Text);
+                HD.themHD(txtMaNhanVien.Text, dt.ToString(), txtTongTien.Text, txtMaHang.Text, txtDonGia.Text, txtSoLuong.Text);
                 MessageBox.Show("Thêm thành công");
                 hienthiHoaDon();
-           
+            }
         }
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            HD.thanhtoan();
-            MessageBox.Show("Thanh toán thành công");
-            hienthiHoaDon();
+            XDocument xDoc = XDocument.Load("GioHang.xml");
+            XmlDocument document = new XmlDocument();
+            document.Load("GioHang.xml");
+            XmlNodeList list5 = document.GetElementsByTagName("Id");
+            int idgh = list5.Count;
+            if (idgh == 0)
+            {
+                MessageBox.Show("Vui lòng thêm sản phẩm trước");
+            }
+            else
+            {
+                HD.thanhtoan();
+                MessageBox.Show("Thanh toán thành công");
+                hienthiHoaDon();
+            }
+            
         }
 
         private void txtSoLuong_TextChanged(object sender, EventArgs e)

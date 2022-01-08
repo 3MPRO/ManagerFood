@@ -42,6 +42,7 @@ namespace foodmanager.View
             this.thốngKêNhàCungCấpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thoonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thốngKêThựcPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thốngKêDoanhThuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Label1 = new System.Windows.Forms.Label();
             this.Panel1 = new System.Windows.Forms.Panel();
             this.lblHoTen = new System.Windows.Forms.Label();
@@ -63,7 +64,10 @@ namespace foodmanager.View
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.PictureBox4 = new System.Windows.Forms.PictureBox();
-            this.thốngKêDoanhThuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.danhSáchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.danhSáchNhânViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.danhSáchHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.danhSáchNhàCungCấpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
@@ -84,7 +88,8 @@ namespace foodmanager.View
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.đăngNhâpToolStripMenuItem,
             this.chuyểnĐổiToolStripMenuItem,
-            this.thốngKêToolStripMenuItem});
+            this.thốngKêToolStripMenuItem,
+            this.danhSáchToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
@@ -203,6 +208,14 @@ namespace foodmanager.View
             this.thốngKêThựcPhẩmToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
             this.thốngKêThựcPhẩmToolStripMenuItem.Text = "Thống kê thực phẩm";
             this.thốngKêThựcPhẩmToolStripMenuItem.Click += new System.EventHandler(this.thốngKêThựcPhẩmToolStripMenuItem_Click);
+            // 
+            // thốngKêDoanhThuToolStripMenuItem
+            // 
+            this.thốngKêDoanhThuToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.thốngKêDoanhThuToolStripMenuItem.Name = "thốngKêDoanhThuToolStripMenuItem";
+            this.thốngKêDoanhThuToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.thốngKêDoanhThuToolStripMenuItem.Text = "Thống kê doanh thu";
+            this.thốngKêDoanhThuToolStripMenuItem.Click += new System.EventHandler(this.thốngKêDoanhThuToolStripMenuItem_Click);
             // 
             // Label1
             // 
@@ -462,13 +475,41 @@ namespace foodmanager.View
             this.PictureBox4.TabIndex = 8;
             this.PictureBox4.TabStop = false;
             // 
-            // thốngKêDoanhThuToolStripMenuItem
+            // danhSáchToolStripMenuItem
             // 
-            this.thốngKêDoanhThuToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.thốngKêDoanhThuToolStripMenuItem.Name = "thốngKêDoanhThuToolStripMenuItem";
-            this.thốngKêDoanhThuToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
-            this.thốngKêDoanhThuToolStripMenuItem.Text = "Thống kê doanh thu";
-            this.thốngKêDoanhThuToolStripMenuItem.Click += new System.EventHandler(this.thốngKêDoanhThuToolStripMenuItem_Click);
+            this.danhSáchToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.danhSáchNhânViênToolStripMenuItem,
+            this.danhSáchHàngToolStripMenuItem,
+            this.danhSáchNhàCungCấpToolStripMenuItem});
+            this.danhSáchToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.danhSáchToolStripMenuItem.ForeColor = System.Drawing.Color.Yellow;
+            this.danhSáchToolStripMenuItem.Name = "danhSáchToolStripMenuItem";
+            this.danhSáchToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
+            this.danhSáchToolStripMenuItem.Text = "Danh sách";
+            // 
+            // danhSáchNhânViênToolStripMenuItem
+            // 
+            this.danhSáchNhânViênToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.danhSáchNhânViênToolStripMenuItem.Name = "danhSáchNhânViênToolStripMenuItem";
+            this.danhSáchNhânViênToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
+            this.danhSáchNhânViênToolStripMenuItem.Text = "Danh sách nhân viên";
+            this.danhSáchNhânViênToolStripMenuItem.Click += new System.EventHandler(this.danhSáchNhânViênToolStripMenuItem_Click);
+            // 
+            // danhSáchHàngToolStripMenuItem
+            // 
+            this.danhSáchHàngToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.danhSáchHàngToolStripMenuItem.Name = "danhSáchHàngToolStripMenuItem";
+            this.danhSáchHàngToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
+            this.danhSáchHàngToolStripMenuItem.Text = "Danh sách hàng";
+            this.danhSáchHàngToolStripMenuItem.Click += new System.EventHandler(this.danhSáchHàngToolStripMenuItem_Click);
+            // 
+            // danhSáchNhàCungCấpToolStripMenuItem
+            // 
+            this.danhSáchNhàCungCấpToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.danhSáchNhàCungCấpToolStripMenuItem.Name = "danhSáchNhàCungCấpToolStripMenuItem";
+            this.danhSáchNhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(264, 26);
+            this.danhSáchNhàCungCấpToolStripMenuItem.Text = "Danh sách nhà cung cấp";
+            this.danhSáchNhàCungCấpToolStripMenuItem.Click += new System.EventHandler(this.danhSáchNhàCungCấpToolStripMenuItem_Click);
             // 
             // FormMain
             // 
@@ -553,5 +594,9 @@ namespace foodmanager.View
         private System.Windows.Forms.ToolStripMenuItem thoonToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thốngKêThựcPhẩmToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thốngKêDoanhThuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem danhSáchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem danhSáchNhânViênToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem danhSáchHàngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem danhSáchNhàCungCấpToolStripMenuItem;
     }
 }

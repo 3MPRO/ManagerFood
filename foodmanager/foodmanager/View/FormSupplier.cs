@@ -77,23 +77,39 @@ namespace foodmanager.View
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            ncc.updateSuplier(txtIdSupplier.Text, txtNameSupp.Text, txtAddressSupp.Text, txtNumPhoneSupp.Text, txtEmailSupp.Text, txtDesSupp.Text);
-            MessageBox.Show("Sửa thành công");
-            showSupplier();
+            if (txtAddressSupp.Text.Equals("") || txtDesSupp.Text.Equals("") || txtEmailSupp.Text.Equals("") || txtIdSupplier.Text.Equals("") || txtNameSupp.Text.Equals("") || txtNumPhoneSupp.Text.Equals(""))
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
+            }
+            else
+            {
+                ncc.updateSuplier(txtIdSupplier.Text, txtNameSupp.Text, txtAddressSupp.Text, txtNumPhoneSupp.Text, txtEmailSupp.Text, txtDesSupp.Text);
+                MessageBox.Show("Sửa thành công");
+                showSupplier();
+            }
+                
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (ncc.checkIdSupplier(txtIdSupplier.Text) == true)
+            if (txtAddressSupp.Text.Equals("") || txtDesSupp.Text.Equals("") || txtEmailSupp.Text.Equals("") || txtIdSupplier.Text.Equals("")|| txtNameSupp.Text.Equals("") || txtNumPhoneSupp.Text.Equals("") )
             {
-                MessageBox.Show("Nhà cung cấp này đã tồn tại");
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
             }
             else
             {
-                ncc.addSupplier(txtIdSupplier.Text, txtNameSupp.Text, txtAddressSupp.Text, txtNumPhoneSupp.Text, txtEmailSupp.Text, txtDesSupp.Text);
-                MessageBox.Show("Thêm thành công");
-                showSupplier();
+                if (ncc.checkIdSupplier(txtIdSupplier.Text) == true)
+                {
+                    MessageBox.Show("Nhà cung cấp này đã tồn tại");
+                }
+                else
+                {
+                    ncc.addSupplier(txtIdSupplier.Text, txtNameSupp.Text, txtAddressSupp.Text, txtNumPhoneSupp.Text, txtEmailSupp.Text, txtDesSupp.Text);
+                    MessageBox.Show("Thêm thành công");
+                    showSupplier();
+                }
             }
+                
         }
 
         private void btnReview_Click(object sender, EventArgs e)

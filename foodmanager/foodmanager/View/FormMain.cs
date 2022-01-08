@@ -4,10 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace foodmanager.View
 {
@@ -16,6 +18,7 @@ namespace foodmanager.View
         FileXML Fxml = new FileXML();
         Main M = new Main();
         HeThong HT = new HeThong();
+        XDocument xPhieuNhap, xHang, xNhanVien;
         public FormMain()
         {
             InitializeComponent();
@@ -269,6 +272,142 @@ namespace foodmanager.View
         {
             FormReportHoaDon frm = new FormReportHoaDon();
             frm.ShowDialog();
+        }
+        void chuyendoihang()
+        {
+            string pathHTML = "Hang.html";
+            xNhanVien = XDocument.Load("Hang.xml");
+
+            var xI = xNhanVien.Descendants("_x0027_Hang_x0027_");
+            var html = new XElement("html",
+            new XElement("head",
+            new XElement("style", "h2{color: #44d13b;}", "table{border:solid 1px #44d13b;border-collapse:collapse}", "td{border:solid 1px silver; padding:10px;}", "tr:first-child{border:solid 1px silver; background-color:#44d13b;color:#fff;}"
+
+         )
+         ),
+         new XElement("body",
+             new XElement("h2", "Danh sách"),
+             new XElement("table",
+             new XElement("tr",
+                 new XElement("td", "Mã hàng"),
+                 new XElement("td", "Tên hàng"),
+                 new XElement("td", "Đơn vị tính"),
+                 new XElement("td", "Đơn giá"),
+                 new XElement("td", "Số lượng"),
+                 new XElement("td", "Mã NCC")
+         ),
+        from el in xI
+        select new XElement("tr",
+            new XElement("td", el.Element("MaHang").Value),
+            new XElement("td", el.Element("TenHang").Value),
+            new XElement("td", el.Element("DonViTinh").Value),
+            new XElement("td", el.Element("DonGia").Value),
+            new XElement("td", el.Element("SoLuong").Value),
+            new XElement("td",
+                new XElement("style", "text-align:right"),
+                el.Element("MaNCC").Value)
+        )
+         )
+         )
+         );
+            html.Save(pathHTML);
+            Process.Start(pathHTML);
+        }
+        private void danhSáchHàngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            chuyendoihang();
+        }
+
+        void chuyendoincc()
+        {
+            string pathHTML = "NhaCungCap.html";
+            xNhanVien = XDocument.Load("NhaCungCap.xml");
+
+            var xI = xNhanVien.Descendants("_x0027_NhaCungCap_x0027_");
+            var html = new XElement("html", // Tạo cây HTML trong bộ nhớ
+            new XElement("head",
+            new XElement("style", "h2{color: #44d13b;}", "table{border:solid 1px #44d13b;border-collapse:collapse}", "td{border:solid 1px silver; padding:10px;}", "tr:first-child{border:solid 1px silver; background-color:#44d13b;color:#fff;}"
+         // Hãy thêm nhiều style nữa ở đây.
+         ) // End of style
+         ), // End of head
+         new XElement("body",
+             new XElement("h2", "Danh sách"),
+             new XElement("table",
+             new XElement("tr",
+                 new XElement("td", "Mã nhà cung cấp"),
+                 new XElement("td", "Tên nhà cung cấp"),
+                 new XElement("td", "Địa chỉ"),
+                 new XElement("td", "SDT"),
+                 new XElement("td", "Email"),
+                 new XElement("td", "Mô tả")
+         ), // End of tr of table header
+        from el in xI
+        select new XElement("tr",
+            new XElement("td", el.Element("MaNCC").Value),
+            new XElement("td", el.Element("TenNCC").Value),
+            new XElement("td", el.Element("DiaChi").Value),
+            new XElement("td", el.Element("SDT").Value),
+            new XElement("td", el.Element("Email").Value),
+            new XElement("td",
+                new XElement("style", "text-align:right"),
+                el.Element("MoTa").Value)
+        ) // End of tr
+         ) // End of table
+         ) // End of body
+         ); // End of html
+            html.Save(pathHTML);
+            Process.Start(pathHTML);
+        }
+
+        private void danhSáchNhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            chuyendoincc();
+        }
+
+        void chuyendoinv()
+        {
+            string pathHTML = "NhanVien.html";
+            xNhanVien = XDocument.Load("NhanVien.xml");
+
+            var xI = xNhanVien.Descendants("_x0027_NhanVien_x0027_");
+            var html = new XElement("html", // Tạo cây HTML trong bộ nhớ
+            new XElement("head",
+            new XElement("style", "h2{color: #44d13b;}", "table{border:solid 1px #44d13b;border-collapse:collapse}", "td{border:solid 1px silver; padding:10px;}", "tr:first-child{border:solid 1px silver; background-color:#44d13b;color:#fff;}"
+         // Hãy thêm nhiều style nữa ở đây.
+         ) // End of style
+         ), // End of head
+         new XElement("body",
+             new XElement("h2", "Danh sách"),
+             new XElement("table",
+             new XElement("tr",
+                 new XElement("td", "Mã nhân viên"),
+                 new XElement("td", "Tên nhân viên"),
+                 new XElement("td", "Ngày sinh"),
+                 new XElement("td", "Địa chỉ"),
+                 new XElement("td", "SDT"),
+                 new XElement("td", "Email")
+         ), // End of tr of table header
+        from el in xI
+        select new XElement("tr",
+            new XElement("td", el.Element("MaNhanVien").Value),
+            new XElement("td", el.Element("TenNhanVien").Value),
+            new XElement("td", el.Element("NgaySinh").Value),
+            new XElement("td", el.Element("DiaChi").Value),
+            new XElement("td", el.Element("SDT").Value),
+            new XElement("td",
+                new XElement("style", "text-align:right"),
+                el.Element("Email").Value) 
+        ) // End of tr
+         ) // End of table
+         ) // End of body
+         ); // End of html
+            html.Save(pathHTML);
+            Process.Start(pathHTML);
+        }
+
+        private void danhSáchNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            chuyendoinv();
         }
     }
 }

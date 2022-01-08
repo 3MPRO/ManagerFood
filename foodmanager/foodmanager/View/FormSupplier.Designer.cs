@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSupplier));
             this.dgvSupplier = new System.Windows.Forms.DataGridView();
-            this.btnReview = new System.Windows.Forms.Button();
             this.txtSearchSupp = new System.Windows.Forms.TextBox();
             this.txtDesSupp = new System.Windows.Forms.TextBox();
             this.txtAddressSupp = new System.Windows.Forms.TextBox();
@@ -68,22 +66,6 @@
             this.dgvSupplier.Size = new System.Drawing.Size(801, 269);
             this.dgvSupplier.TabIndex = 27;
             this.dgvSupplier.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSupplier_CellContentClick_1);
-            // 
-            // btnReview
-            // 
-            this.btnReview.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnReview.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReview.ForeColor = System.Drawing.Color.White;
-            this.btnReview.Image = ((System.Drawing.Image)(resources.GetObject("btnReview.Image")));
-            this.btnReview.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReview.Location = new System.Drawing.Point(724, 235);
-            this.btnReview.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnReview.Name = "btnReview";
-            this.btnReview.Size = new System.Drawing.Size(145, 54);
-            this.btnReview.TabIndex = 26;
-            this.btnReview.Text = "         Review";
-            this.btnReview.UseVisualStyleBackColor = false;
-            this.btnReview.Click += new System.EventHandler(this.btnReview_Click);
             // 
             // txtSearchSupp
             // 
@@ -244,7 +226,7 @@
             this.btnShow.ForeColor = System.Drawing.Color.White;
             this.btnShow.Image = global::foodmanager.Properties.Resources.loading;
             this.btnShow.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnShow.Location = new System.Drawing.Point(549, 235);
+            this.btnShow.Location = new System.Drawing.Point(654, 223);
             this.btnShow.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(151, 54);
@@ -260,7 +242,7 @@
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.Image = global::foodmanager.Properties.Resources.delete;
             this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(398, 235);
+            this.btnDelete.Location = new System.Drawing.Point(503, 223);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(124, 54);
@@ -276,7 +258,7 @@
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Image = global::foodmanager.Properties.Resources.pen;
             this.btnUpdate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUpdate.Location = new System.Drawing.Point(239, 235);
+            this.btnUpdate.Location = new System.Drawing.Point(344, 223);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(134, 54);
@@ -292,7 +274,7 @@
             this.btnAdd.ForeColor = System.Drawing.Color.White;
             this.btnAdd.Image = global::foodmanager.Properties.Resources.add;
             this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(81, 235);
+            this.btnAdd.Location = new System.Drawing.Point(186, 223);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(134, 54);
@@ -325,7 +307,6 @@
             this.ClientSize = new System.Drawing.Size(962, 633);
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.dgvSupplier);
-            this.Controls.Add(this.btnReview);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
@@ -358,7 +339,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvSupplier;
-        private System.Windows.Forms.Button btnReview;
         private System.Windows.Forms.Button btnShow;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnUpdate;

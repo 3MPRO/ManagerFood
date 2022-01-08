@@ -55,15 +55,23 @@ namespace foodmanager.View
 
         private void btnXacNhan_Click(object sender, EventArgs e)
         {
-            if (LoadDuLieu())
+            if(txtMatKhauCu.Text.Equals("") || txtMatKhauMoi.Text.Equals("") || txtNhapLaiMatKhau.Text.Equals(""))
             {
-                if (MessageBox.Show("Bạn có chắc muốn đổi mật khẩu không?", "Thông Báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
+            }
+            else
+            {
+                if (LoadDuLieu())
                 {
-                    dmk.Doi(txtMatKhauMoi.Text);
-                    MessageBox.Show("Đổi mật khẩu thành công");
-                    Close();
+                    if (MessageBox.Show("Bạn có chắc muốn đổi mật khẩu không?", "Thông Báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        dmk.Doi(txtMatKhauMoi.Text);
+                        MessageBox.Show("Đổi mật khẩu thành công");
+                        Close();
+                    }
                 }
             }
+            
         }
     }
 }

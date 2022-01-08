@@ -30,7 +30,13 @@ namespace foodmanager.View
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (nv.kiemtra(txtMaNhanVien.Text) == false)
+            if (txtMaNhanVien.Text.Equals("") || txtMatKhau.Text.Equals("") || txtQuyen.Text.Equals("") || txtTenNhanVien.Text.Equals(""))
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
+            }
+            else
+            {
+                if (nv.kiemtra(txtMaNhanVien.Text) == false)
             {
                 MessageBox.Show("Không có nhân viên này");
             }
@@ -55,6 +61,8 @@ namespace foodmanager.View
                 }
 
             }
+            }
+                
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

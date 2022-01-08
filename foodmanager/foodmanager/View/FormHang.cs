@@ -30,23 +30,38 @@ namespace foodmanager.View
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (H.kiemtraMaHang(txtMaHang.Text) == true)
+            if(txtMaHang.Text.Equals("")|| txtTenHang.Text.Equals("") || txtDonGia.Text.Equals("") || txtDonViTinh.Text.Equals("") || txtSoLuong.Text.Equals("") || cbbMaNCC.Text.Equals(""))
             {
-                MessageBox.Show("Mã hàng đã tồn tại");
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
             }
             else
             {
-                H.themH(txtMaHang.Text, txtTenHang.Text, txtDonViTinh.Text, txtDonGia.Text, txtSoLuong.Text, cbbMaNCC.SelectedValue.ToString());
-                MessageBox.Show("Thanh hàng thành công");
-                hienthiHang();
+                if (H.kiemtraMaHang(txtMaHang.Text) == true)
+                {
+                    MessageBox.Show("Mã hàng đã tồn tại");
+                }
+                else
+                {
+                    H.themH(txtMaHang.Text, txtTenHang.Text, txtDonViTinh.Text, txtDonGia.Text, txtSoLuong.Text, cbbMaNCC.SelectedValue.ToString());
+                    MessageBox.Show("Thanh hàng thành công");
+                    hienthiHang();
+                }
             }
+            
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            H.suaH(txtMaHang.Text, txtTenHang.Text, txtDonViTinh.Text, txtDonGia.Text, txtSoLuong.Text, cbbMaNCC.SelectedValue.ToString());
-            MessageBox.Show("Sửa thành công");
-            hienthiHang();
+            if (txtMaHang.Text.Equals("") || txtTenHang.Text.Equals("") || txtDonGia.Text.Equals("") || txtDonViTinh.Text.Equals("") || txtSoLuong.Text.Equals("") || cbbMaNCC.Text.Equals(""))
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin");
+            }
+            else
+            {
+                H.suaH(txtMaHang.Text, txtTenHang.Text, txtDonViTinh.Text, txtDonGia.Text, txtSoLuong.Text, cbbMaNCC.SelectedValue.ToString());
+                MessageBox.Show("Sửa thành công");
+                hienthiHang();
+            }
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

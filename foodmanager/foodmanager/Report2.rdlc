@@ -609,21 +609,6 @@
             <PaddingBottom>2pt</PaddingBottom>
           </Style>
         </Textbox>
-        <Image Name="Image1">
-          <Source>Embedded</Source>
-          <Value>nhanvien</Value>
-          <Sizing>FitProportional</Sizing>
-          <Top>0.06611in</Top>
-          <Left>0.21333in</Left>
-          <Height>0.99167in</Height>
-          <Width>1.03667in</Width>
-          <ZIndex>1</ZIndex>
-          <Style>
-            <Border>
-              <Style>None</Style>
-            </Border>
-          </Style>
-        </Image>
       </ReportItems>
       <Style>
         <Border>

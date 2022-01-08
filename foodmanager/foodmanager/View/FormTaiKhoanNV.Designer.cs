@@ -57,7 +57,7 @@ namespace foodmanager.View
             this.tbnTen.Location = new System.Drawing.Point(435, 234);
             this.tbnTen.Margin = new System.Windows.Forms.Padding(4);
             this.tbnTen.Name = "tbnTen";
-            this.tbnTen.Size = new System.Drawing.Size(156, 51);
+            this.tbnTen.Size = new System.Drawing.Size(191, 51);
             this.tbnTen.TabIndex = 27;
             this.tbnTen.Text = "        Lấy tên NV";
             this.tbnTen.UseVisualStyleBackColor = false;
@@ -70,7 +70,7 @@ namespace foodmanager.View
             this.btnThoat.ForeColor = System.Drawing.Color.White;
             this.btnThoat.Image = global::foodmanager.Properties.Resources.close1;
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoat.Location = new System.Drawing.Point(634, 234);
+            this.btnThoat.Location = new System.Drawing.Point(653, 234);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(152, 51);
