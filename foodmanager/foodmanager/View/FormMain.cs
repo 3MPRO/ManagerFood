@@ -53,6 +53,7 @@ namespace foodmanager.View
                 pictureBox7.Visible = false;
                 thốngKêToolStripMenuItem.Visible = false;
                 chuyểnĐổiToolStripMenuItem.Visible = false;
+                danhSáchToolStripMenuItem.Visible = false;
             }
             if (e) ThongTinDangNhap();
         }
