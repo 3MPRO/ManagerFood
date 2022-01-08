@@ -303,9 +303,7 @@ namespace foodmanager.View
             new XElement("td", el.Element("DonViTinh").Value),
             new XElement("td", el.Element("DonGia").Value),
             new XElement("td", el.Element("SoLuong").Value),
-            new XElement("td",
-                new XElement("style", "text-align:right"),
-                el.Element("MaNCC").Value)
+            new XElement("td", el.Element("MaNCC").Value)
         )
          )
          )
@@ -348,9 +346,7 @@ namespace foodmanager.View
             new XElement("td", el.Element("DiaChi").Value),
             new XElement("td", el.Element("SDT").Value),
             new XElement("td", el.Element("Email").Value),
-            new XElement("td",
-                new XElement("style", "text-align:right"),
-                el.Element("MoTa").Value)
+            new XElement("td", el.Element("MoTa").Value)
         ) // End of tr
          ) // End of table
          ) // End of body
@@ -394,9 +390,7 @@ namespace foodmanager.View
             new XElement("td", el.Element("NgaySinh").Value),
             new XElement("td", el.Element("DiaChi").Value),
             new XElement("td", el.Element("SDT").Value),
-            new XElement("td",
-                new XElement("style", "text-align:right"),
-                el.Element("Email").Value) 
+            new XElement("td", el.Element("Email").Value)
         ) // End of tr
          ) // End of table
          ) // End of body
